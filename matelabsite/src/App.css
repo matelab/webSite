@@ -6,6 +6,12 @@
   height: 40vmin;
   pointer-events: none;
 }
+textarea {
+  border: 1px solid #cac5c5;
+  padding: 10px 14px;
+  height: 220px !important;
+  resize: none;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
