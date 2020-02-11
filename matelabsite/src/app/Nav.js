@@ -25,21 +25,21 @@ class Nav extends Component {
   render() {
     return (
       <div>
-        <ul id="dropdown1" class="dropdown-content">
+        <ul id="dropdown1" className="dropdown-content">
           <li>
             <a href="#!">one</a>
           </li>
           <li>
             <a href="#!">two</a>
           </li>
-          <li class="divider"></li>
+          <li className="divider"></li>
           <li>
             <a href="#!">three</a>
           </li>
         </ul>
         <nav className="black">
-          <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">
+          <div className="nav-wrapper">
+            <a href="#!" className="brand-logo">
               <img
                 src={logo}
                 className=""
@@ -48,27 +48,24 @@ class Nav extends Component {
                 height="37"
               />
             </a>
-            <a href="#!" class="brand-logo nextLogo">
-              &lt;mate/Lab&gt;
+            <a href="#" data-target="mobile-demo" className="sidenav-trigger">
+              <i className="material-icons">menu</i>
             </a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-              <i class="material-icons">menu</i>
-            </a>
-            <ul class="right hide-on-med-and-down">
+            <ul className="right hide-on-med-and-down">
               <li>
-                <Link to="/servicios" title="Servicios">
+                <a href="#servicios" title="Servicios">
                   Servicios
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="" title="Productos">
+                <a href="#productos" title="Productos">
                   Productos
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="" title="Investigación y desarrollo">
+                <a href="#i+d" title="Investigación y desarrollo">
                   I+D
-                </Link>
+                </a>
               </li>
               <li>
                 <Link to="" title="Blog">
@@ -86,9 +83,9 @@ class Nav extends Component {
                 </Link>
               </li>
               <li>
-                <Link to="/contacto" title="Contacto">
+                <a href="#contacto" title="Contacto">
                   Contacto
-                </Link>
+                </a>
               </li>
               <li>
                 <Link to="http://soporte.matelab.com.ar" title="Soporte">
@@ -98,19 +95,47 @@ class Nav extends Component {
             </ul>
           </div>
         </nav>
-        <ul class="sidenav" id="mobile-demo">
-          <li>
-            <a href="sass.html">Sass</a>
-          </li>
-          <li>
-            <a href="badges.html">Components</a>
-          </li>
-          <li>
-            <a href="collapsible.html">Javascript</a>
-          </li>
-          <li>
-            <a href="mobile.html">Mobile</a>
-          </li>
+        <ul className="sidenav" id="mobile-demo">
+            <li>
+              <a href="#servicios" title="Servicios">
+                Servicios
+              </a>
+            </li>
+            <li>
+              <a href="#productos" title="Productos">
+                Productos
+              </a>
+            </li>
+            <li>
+              <a href="#i+d" title="Investigación y desarrollo">
+                I+D
+              </a>
+            </li>
+            <li>
+              <Link to="" title="Blog">
+                Blog
+              </Link>
+            </li>
+            <li>
+              <Link to="" title="Organización">
+                Organización
+              </Link>
+            </li>
+            <li>
+              <Link to="/nosotros" title="Nosotros">
+                Nosotros
+              </Link>
+            </li>
+            <li>
+              <a href="#contacto" title="Contacto">
+                Contacto
+              </a>
+            </li>
+            <li>
+              <Link to="http://soporte.matelab.com.ar" title="Soporte">
+                Soporte
+              </Link>
+            </li>
         </ul>
       </div>
     );

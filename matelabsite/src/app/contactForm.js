@@ -1,40 +1,19 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
 
-class Contact extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      name: "",
-      email: "",
-      pass: "",
-      confirm_pass: "",
-      error: null
-    };
-    this.handleChange = this.handleChange.bind(this);
-  }
-
-  handleChange(e) {
-    const { name, value } = e.target;
-    this.setState({
-      [name]: value
-    });
-  }
-
-  render() {
+const ContactForm = props => {
     return (
-      <div className="container">
-        <h1>Contactenos</h1>
-        <div className="card">
+      <div id={props.id} className="container">
+        <div>
           <div className="card-content">
-            <form onSubmit={this.register}>
+            <h3>Contactenos</h3>
+            <form onSubmit={props.contact}>
               <div className="row">
                 <div className="input-field col s12">
                   <input
                     type="text"
                     name="name"
-                    onChange={this.handleChange}
-                    value={this.state.name}
+                    onChange={props.handleChange}
+                    value={props.name}
                     placeholder="Nombre y apellido"
                   />
                 </div>
@@ -42,8 +21,8 @@ class Contact extends Component {
                   <input
                     type="text"
                     name="email"
-                    onChange={this.handleChange}
-                    value={this.state.email}
+                    onChange={props.handleChange}
+                    value={props.email}
                     placeholder="Email"
                   />
                 </div>
@@ -64,6 +43,6 @@ class Contact extends Component {
       </div>
     );
   }
-}
 
-export default Contact;
+
+export default ContactForm;
