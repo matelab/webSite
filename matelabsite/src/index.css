@@ -16,12 +16,8 @@ body {
 }
 .section{
   height: 100vh;
+  padding: 5px 16px;
 }
-body {
-  margin: 0;
-  font:normal 75% Arial, Helvetica, sans-serif;
-}
-
 canvas {
   display: block;
   vertical-align: bottom;
@@ -41,6 +37,26 @@ canvas {
 .intro{
   background-color: #16cc5d;
   color: #fff;
+}
+.intro .paragraph1{
+  font-size: 1.9rem;
+}
+.services{
+  background-color: #e6e6e6;
+}
+.services .paragraph1{
+  font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: #5f5f5f;
+    font-style: italic;
+}
+.logosLenguaje{
+  margin: 10px;
+}
+.customer{
+  width: 50px;
+  height: 50px;
+  background-color: #000;
 }
 /* ---- stats.js ---- */
 
