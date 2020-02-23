@@ -24,7 +24,7 @@ class Nav extends Component {
 
   render() {
     return (
-      <div>
+      <div className="header">
         <ul id="dropdown1" className="dropdown-content">
           <li>
             <a href="#!">one</a>
@@ -53,13 +53,13 @@ class Nav extends Component {
             </a>
             <ul className="right hide-on-med-and-down">
               <li>
-                <a href="#servicios" title="Servicios">
+                <a href="#services" title="Servicios">
                   Servicios
                 </a>
               </li>
               <li>
-                <a href="#productos" title="Productos">
-                  Productos
+                <a href="#clientes" title="clientes">
+                  Clientes
                 </a>
               </li>
               <li>

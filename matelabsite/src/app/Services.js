@@ -1,11 +1,11 @@
 import React from 'react';
-const arrayImg = ['java', 'react', 'ionic', 'android', 'angular', 
+const arrayImg = ['java', 'react', 'ionic', 'android', 
 'aws', 'c++', 'ios','net','nodejs', 'objectivec', 'python', 'wordpress']
 
 const Services = props => {
     return (
-        <div className={`section ${props.classCustom}`}>
-            <h2>{props.title1}</h2>
+        <div id={props.id} className={`section ${props.classCustom}`}>
+            <h2 className="titleSection">{props.title1}</h2>
             <div class="row">
               <div class="col s6">
                 <p className="paragraph1">{props.text1}</p>
