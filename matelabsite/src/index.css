@@ -43,7 +43,7 @@ canvas {
   background-position: 50% 50%;
 }
 .titleSectionIntro{
-  font-size: 5.5rem;
+  font-size: 5em;
   font-weight: bold;
   
 }
@@ -167,7 +167,12 @@ canvas {
 .card .card-image img {
   width: 50% !important;
 }     
-
+.sidenav{
+  z-index: 1000 !important;
+}
+.sidenav-overlay{
+  z-index: 1 !important;
+}
 
 @media only screen and (max-width: 992px){
   .nextLogo{
@@ -177,11 +182,6 @@ canvas {
     #services{
       height: initial;
     }
-    .sidenav{
-      z-index: 1000;
-    }
-    .sidenav-overlay{
-      z-index: 1;
-    }
+    
   }
 }
