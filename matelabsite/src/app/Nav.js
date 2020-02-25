@@ -97,37 +97,37 @@ class Nav extends Component {
         </nav>
         <ul className="sidenav" id="mobile-demo">
             <li>
-              <a href="#servicios" title="Servicios">
+              <a className="anchorLink" href="#services" title="Servicios">
                 Servicios
               </a>
             </li>
             <li>
-              <a href="#productos" title="Productos">
-                Productos
+              <a className="anchorLink" href="#clientes" title="clientes">
+                Casos de uso
               </a>
             </li>
             <li>
-              <a href="#i+d" title="Investigación y desarrollo">
+              <a className="anchorLink" href="#organization" title="Organización">
+                Organización
+              </a>
+            </li>
+            <li>
+              <a href="http://blog.matelab.com.ar/" target="_blank" title="Blog">
+                Blog
+              </a>
+            </li>
+            <li>
+              <a className="anchorLink" href="#i+d" title="Investigación y desarrollo">
                 I+D
               </a>
             </li>
             <li>
-              <Link to="http://blog.matelab.com.ar/" target="_blank" title="Blog">
-                Blog
-              </Link>
-            </li>
-            <li>
-              <Link to="" title="Organización">
-                Organización
-              </Link>
-            </li>
-            <li>
-              <Link to="/nosotros" title="Nosotros">
+              <a className="anchorLink" href="#aboutus" title="Nosotros">
                 Nosotros
-              </Link>
+              </a>
             </li>
             <li>
-              <a href="#contacto" title="Contacto">
+              <a className="anchorLink" href="#contacto" title="Contacto">
                 Contacto
               </a>
             </li>

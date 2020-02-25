@@ -42,8 +42,8 @@ const ContactForm = props => {
             </div>
             <div className="col s6">
                 <div>
-                  <a class="waves-effect waves-light btn-floating social github">
-                  <i class="fa fa-github"></i> Sign in with github</a>
+                  <a className="waves-effect waves-light btn-floating social github">
+                  <i className="fa fa-github"></i> Sign in with github</a>
                   <a className="waves-effect waves-light btn-floating social twitter">
                   <i className="fa fa-twitter"></i> Sign in with twitter</a>
                   <a className="waves-effect waves-light btn-floating social linkedin">

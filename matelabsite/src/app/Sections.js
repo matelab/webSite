@@ -5,7 +5,7 @@ const Sections = props => {
         <div id={props.id} className={`section ${props.classCustom}`}>
             <div className="introBox">
                 <div className="row">
-                    <div className="col s6">
+                    <div className="col l6 s12">
                         <h1 className="titleSectionIntro">{props.title1}</h1>
                         <p className="paragraph1">{props.text1}</p>
                     </div>
