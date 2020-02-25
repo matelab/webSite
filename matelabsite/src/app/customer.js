@@ -17,9 +17,27 @@ const Customer = props => {
             <h2 className="titleSection">{props.title1}</h2>
             <OwlCarousel
                 className="owl-theme"
-                loop
-                margin={0}
+                loop={true}
+                margin={20}
+                stoponhover="true"
+                autoplayHoverPause={true}
+                nav={false}
+                dots={false}
                 autoplay={true}
+                slidetransition= 'linear'
+                autoplayTimeout={10000}
+                autoplaySpeed={5000}
+                responsive={
+                    {
+                        item:1
+                    },
+                    {
+                        item:2
+                    },
+                    {
+                        item:3
+                    }
+                }
             >
                 {
 

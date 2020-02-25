@@ -63,16 +63,11 @@ const AboutUs = props => {
         <div id={props.id} className={`section ${props.classCustom}`}>
             <h2 className="titleSection">{props.title1}</h2>
             <div className="row">
-              <div className="col s12 m12">
-                <p className="paragraph1">{props.text1}</p>
-              </div>
-              <div className="row">
-              
                 {
                   arrayIntegrantes.map((index, key) => {
                     console.log(index)
                       return(
-                        <div key={`${key}`} className="col l3 s6">           
+                        <div key={`${key}`} className="col l3 s12">           
                             <div className="card">
                                 <div className="card-image waves-effect waves-block waves-light">
                                 <img
@@ -96,8 +91,6 @@ const AboutUs = props => {
                       )
                   })
                 }
-              
-              </div>
             </div>
         </div>
 
