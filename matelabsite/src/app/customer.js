@@ -23,9 +23,9 @@ const Customer = props => {
             >
                 {
 
-                arrayImg.map(index =>{
+                arrayImg.map((index, key) =>{
                     return(
-                        <div class="item">
+                        <div key={`${key}`} className="item">
                             <div style={style}>
                                 <img
                                 src={`../logosClientes/${index}.png`}

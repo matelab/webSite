@@ -53,44 +53,44 @@ class Nav extends Component {
             </a>
             <ul className="right hide-on-med-and-down">
               <li>
-                <a href="#services" title="Servicios">
+                <a className="anchorLink" href="#services" title="Servicios">
                   Servicios
                 </a>
               </li>
               <li>
-                <a href="#clientes" title="clientes">
-                  Clientes
+                <a className="anchorLink" href="#clientes" title="clientes">
+                  Casos de uso
                 </a>
               </li>
               <li>
-                <a href="#i+d" title="Investigación y desarrollo">
+                <a className="anchorLink" href="#organization" title="Organización">
+                  Organización
+                </a>
+              </li>
+              <li>
+                <a href="http://blog.matelab.com.ar/" target="_blank" title="Blog">
+                  Blog
+                </a>
+              </li>
+              <li>
+                <a className="anchorLink" href="#i+d" title="Investigación y desarrollo">
                   I+D
                 </a>
               </li>
               <li>
-                <Link to="" title="Blog">
-                  Blog
-                </Link>
-              </li>
-              <li>
-                <Link to="" title="Organización">
-                  Organización
-                </Link>
-              </li>
-              <li>
-                <Link to="/nosotros" title="Nosotros">
+                <a className="anchorLink" href="#aboutus" title="Nosotros">
                   Nosotros
-                </Link>
+                </a>
               </li>
               <li>
-                <a href="#contacto" title="Contacto">
+                <a className="anchorLink" href="#contacto" title="Contacto">
                   Contacto
                 </a>
               </li>
               <li>
-                <Link to="http://soporte.matelab.com.ar" title="Soporte">
+                <a href="http://soporte.matelab.com.ar" target="_blank" title="Soporte">
                   Soporte
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
@@ -112,7 +112,7 @@ class Nav extends Component {
               </a>
             </li>
             <li>
-              <Link to="" title="Blog">
+              <Link to="http://blog.matelab.com.ar/" target="_blank" title="Blog">
                 Blog
               </Link>
             </li>
@@ -132,9 +132,9 @@ class Nav extends Component {
               </a>
             </li>
             <li>
-              <Link to="http://soporte.matelab.com.ar" title="Soporte">
+              <a href="http://soporte.matelab.com.ar" target="_blank" title="Soporte">
                 Soporte
-              </Link>
+              </a>
             </li>
         </ul>
       </div>

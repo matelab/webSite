@@ -12,9 +12,9 @@ const AboutUs = props => {
               <div className="row">
               
                 {
-                  arrayImg.map(index => {
+                  arrayImg.map((index, key) => {
                       return(
-                        <div className="col s2">           
+                        <div key={`${key}`} className="col s2">           
                             <div className="card">
                                 <div className="card-image waves-effect waves-block waves-light">
                                 <img

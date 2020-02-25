@@ -30,7 +30,10 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700&display=swap" rel="stylesheet">
+    <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="materialize/css/materialize-social.css" rel="stylesheet">
     <script
     src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -40,7 +43,7 @@
     <script>
       $(document).ready(function(){
         $('.sidenav').sidenav();
-        $( "a" ).click(function( event ) {
+        $( ".anchorLink" ).click(function( event ) {
             event.preventDefault();
             $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 500);
         });

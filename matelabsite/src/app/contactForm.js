@@ -6,17 +6,17 @@ const ContactForm = props => {
           <h2 className="titleSection">{props.title1}</h2>
           <div className="row">
             <div className="col s6">
-                <div className="card card-content">
+                <div>
                   <form onSubmit={props.contact}>
                     <div className="row">
                       <div className="input-field col s12">
-                        <input
+                      <input
                           type="text"
                           name="name"
                           onChange={props.handleChange}
                           value={props.name}
-                          placeholder="Nombre y apellido"
                         />
+                        <label htmlFor="name">Nombre y apellido</label>
                       </div>
                       <div className="input-field col s12">
                         <input
@@ -24,15 +24,12 @@ const ContactForm = props => {
                           name="email"
                           onChange={props.handleChange}
                           value={props.email}
-                          placeholder="Email"
                         />
+                        <label htmlFor="email">Email</label>
                       </div>
                       <div className="input-field col s12">
-                        <textarea
-                          type="text"
-                          name="comentarios"
-                          placeholder="Deja tu comentario"
-                        />
+                        <textarea id="textarea1" className="materialize-textarea"></textarea>
+                        <label htmlFor="textarea1">Comentarios</label>
                       </div>
                       <div className="input-field col s12">
                         <button type="submit" className="btn light-green darken-4">
@@ -44,6 +41,16 @@ const ContactForm = props => {
                 </div>
             </div>
             <div className="col s6">
+                <div>
+                  <a class="waves-effect waves-light btn-floating social github">
+                  <i class="fa fa-github"></i> Sign in with github</a>
+                  <a className="waves-effect waves-light btn-floating social twitter">
+                  <i className="fa fa-twitter"></i> Sign in with twitter</a>
+                  <a className="waves-effect waves-light btn-floating social linkedin">
+                  <i className="fa fa-linkedin"></i> Sign in with linkedin</a>
+                  <a className="waves-effect waves-light btn-floating social facebook">
+                  <i className="fa fa-facebook"></i> Sign in with facebook</a>
+                </div>  
                 <a className="d-block mt-5 text-decoration-none" target="_blank">
                     <h4 className="title-footer">Consultas:</h4>
                     <h5 className="underline"></h5>

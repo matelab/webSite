@@ -6,16 +6,17 @@ const Services = props => {
     return (
         <div id={props.id} className={`section ${props.classCustom}`}>
             <h2 className="titleSection">{props.title1}</h2>
-            <div class="row">
-              <div class="col s6">
+            <div className="row">
+              <div className="col s6">
                 <p className="paragraph1">{props.text1}</p>
               </div>
-              <div class="col s6">
+              <div className="col s6">
               
                 {
-                  arrayImg.map(index => {
+                  arrayImg.map((index, key) => {
                       return(
-                        <img
+                        
+                        <img key={`${key}`}
                           src={`../logos/${index}.svg`}
                           className="logosLenguaje"
                           alt="Mate Lab"

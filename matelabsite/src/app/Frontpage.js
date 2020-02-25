@@ -32,19 +32,17 @@ class Frontpage extends Component {
             <Section 
               id="intro"
               title1="&lt;mate/Lab&gt;" 
-              text1="PARTNERS TECNOLÓGICOS EN LA TRANSFORMACIÓN DIGITAL" 
+              text1="Llevando la tecnología hacia un futuro abierto e inclusivo" 
             >
             </Section>
             <Services 
               id="services"
               title1="Servicios" 
-              text1="Somos partners tecnológicos de nuestros clientes y los acompañamos en la búsqueda de la mejor solución digital.
-              Brindamos soluciones en consultoría, desarrollo, fábrica, calidad y soporte.
-              A partir de muchos años de experiencia, nos especializamos en las áreas de seguros, gobierno, banca y finanzas y agro." 
+              text1="Somos creadores de soluciones tecnologicas para nuestros clientes, enfocandonos en su satisfacción junto con una rapida respuesta de manera continua, brindandoles servicios de desarrollo de software, soporte IT, Infraestructura, Business Inteligence y Data Science"
               >
             </Services>
             <Aboutus id="aboutus" title1="Sobre Nosotros"></Aboutus>
-            <Customer  id="clientes" title1="Clientes"></Customer>
+            <Customer  id="clientes" title1="Casos de uso"></Customer>
             <ContactForm id="contacto" title1="Contactenos"></ContactForm>
         </div>
         );
