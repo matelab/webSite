@@ -11,6 +11,23 @@ const style = {
     height: '190px',
     margin: '0 auto'
 };
+const responsive = {
+    // breakpoint from 0 up
+    0 : {
+        items:2,
+        items:2,
+    },
+    // breakpoint from 480 up
+    480 : {
+        items:2,
+        items:2,
+    },
+    // breakpoint from 768 up
+    768 : {
+        items:3,
+        items:3,
+    }
+}
 const Customer = props => {
     return (
         <div id={props.id} className={`section ${props.classCustom}`}>
@@ -27,17 +44,7 @@ const Customer = props => {
                 slidetransition= 'linear'
                 autoplayTimeout={10000}
                 autoplaySpeed={5000}
-                responsive={
-                    {
-                        item:1
-                    },
-                    {
-                        item:2
-                    },
-                    {
-                        item:3
-                    }
-                }
+                responsive={responsive}
             >
                 {
 
