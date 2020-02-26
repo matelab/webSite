@@ -1,20 +1,20 @@
 body {
   margin: 0;
-  font-family: 'Roboto'; 
+  font-family: "Roboto";
 }
 
-.brand-logo img{
+.brand-logo img {
   margin: 14px;
 }
 
-.nextLogo{
+.nextLogo {
   margin-left: 60px;
 }
-.section{
-  height: 100vh;
+.section {
   padding: 5px 16px;
 }
-#contacto, #aboutus{
+#contacto,
+#aboutus {
   height: initial;
 }
 canvas {
@@ -23,15 +23,15 @@ canvas {
 }
 
 /* ---- particles.js container ---- */
-.header{
+.header {
   position: fixed;
   width: 100%;
   z-index: 100;
 }
-.introBox{
-    top: 50%;
-    transform: translateY(-50%);
-    position: relative;
+.introBox {
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
 }
 #particles-js {
   position: absolute;
@@ -42,70 +42,69 @@ canvas {
   background-size: cover;
   background-position: 50% 50%;
 }
-.titleSectionIntro{
+.titleSectionIntro {
   font-size: 5em;
   font-weight: bold;
-  
 }
-.titleSection{
+.titleSection {
   font-size: 1.5em;
   font-weight: bold;
   display: inline-block;
-  padding: .4em .75em .4em 20em;
+  padding: 0.4em 0.75em 0.4em 20em;
   margin: 3em 1em 2em -20em;
   text-transform: uppercase;
   position: relative;
   z-index: 10;
-  background-color:#3e2051;
+  background-color: #3e2051;
   color: #fff;
 }
-#services .titleSection{
-  margin: 1em 1em 1em -20em;
-}
-#intro{
+#intro {
   background-color: #16cc5d;
   color: #fff;
+  height: 37em;
 }
-#intro .paragraph1{
+#intro .paragraph1 {
   font-size: 1.5em;
-    font-style: italic;
-    line-height: 1.5em;
+  font-style: italic;
+  line-height: 1.5em;
 }
-#services, #contacto{
+#services,
+#contacto {
   background-color: #e6e6e6;
 }
-#services .paragraph1, #organization .paragraph1{
+#services .paragraph1,
+#organization .paragraph1 {
   font-size: 1.6rem;
-    line-height: 2.5rem;
-    color: #5f5f5f;
-    font-style: italic;
+  line-height: 2.5rem;
+  color: #5f5f5f;
+  font-style: italic;
 }
-.logosLenguaje{
+.logosLenguaje {
   margin: 10px;
 }
-.customer{
+.customer {
   width: 50px;
   height: 50px;
   background-color: #000;
 }
-.card.card-content{
+.card.card-content {
   padding: 10px;
 }
-.imgAboutUs{
+.imgAboutUs {
   width: 130px;
   height: auto;
   margin: 8px auto;
 }
 /* ---- stats.js ---- */
 
-.count-particles{
+.count-particles {
   background: #000022;
   position: absolute;
   top: 48px;
   left: 0;
   width: 80px;
-  color: #13E8E9;
-  font-size: .8em;
+  color: #13e8e9;
+  font-size: 0.8em;
   text-align: left;
   text-indent: 4px;
   line-height: 14px;
@@ -114,24 +113,24 @@ canvas {
   font-weight: bold;
 }
 
-.js-count-particles{
+.js-count-particles {
   font-size: 1.1em;
 }
 
 #stats,
-.count-particles{
+.count-particles {
   -webkit-user-select: none;
 }
 
-#stats{
+#stats {
   border-radius: 3px 3px 0 0;
   overflow: hidden;
 }
 
-.count-particles{
+.count-particles {
   border-radius: 0 0 3px 3px;
 }
-.title-footer{
+.title-footer {
   font-size: 1rem;
 }
 
@@ -142,21 +141,21 @@ canvas {
   color: #3e2051 !important;
 }
 /* label focus color */
-.input-field input[type=text]:focus + label {
+.input-field input[type="text"]:focus + label {
   color: #000 !important;
 }
 /* label underline focus color */
-.input-field input[type=text]:focus {
+.input-field input[type="text"]:focus {
   border-bottom: 1px solid #000;
   box-shadow: 0 1px 0 0 #000;
 }
 /* valid color */
-.input-field input[type=text].valid {
+.input-field input[type="text"].valid {
   border-bottom: 1px solid #000;
   box-shadow: 0 1px 0 0 #000;
 }
 /* invalid color */
-.input-field input[type=text].invalid {
+.input-field input[type="text"].invalid {
   border-bottom: 1px solid #000;
   box-shadow: 0 1px 0 0 #000;
 }
@@ -166,22 +165,21 @@ canvas {
 }
 .card .card-image img {
   width: 50% !important;
-}     
-.sidenav{
+}
+.sidenav {
   z-index: 1000 !important;
 }
-.sidenav-overlay{
+.sidenav-overlay {
   z-index: 1 !important;
 }
 
-@media only screen and (max-width: 992px){
-  .nextLogo{
+@media only screen and (max-width: 992px) {
+  .nextLogo {
     display: none !important;
   }
-  @media only screen and (max-width: 660px){
-    #services{
+  @media only screen and (max-width: 660px) {
+    #services {
       height: initial;
     }
-    
   }
 }
