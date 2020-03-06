@@ -74,7 +74,7 @@ const ContactForm = props => {
               <i className="fa fa-instagram"></i>
             </a>
             <a
-              href="https://www.instagram.com/matelab.ok"
+              href="https://wa.me/5491121805256"
               target="_blank"
               className="waves-effect waves-light btn-floating social whatsapp"
             >
