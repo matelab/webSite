@@ -75,7 +75,7 @@ const AboutUs = props => {
                     alt="Mate Lab"
                     width="50"
                     height="50"
-                    style={{ height: 220 }}
+                    style={{ height: 220, maxHeight: 220 }}
                   />
                 </div>
                 <div className="card-content">

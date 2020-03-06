@@ -128,7 +128,7 @@ class Nav extends Component {
               Blog
             </a>
           </li>
-          <li>
+          {/*<li>
             <a
               className="anchorLink"
               href="#i+d"
@@ -136,7 +136,7 @@ class Nav extends Component {
             >
               I+D
             </a>
-          </li>
+          </li>*/}
           <li>
             <a className="anchorLink" href="#aboutus" title="Nosotros">
               Nosotros

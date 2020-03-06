@@ -47,7 +47,7 @@ class Frontpage extends Component {
           text2="En Matelab, todos son escuchados, todo se puede debatir y votar, porque lo importante para nosotros son ante todo las personas y por eso nuestra forma de trabajar se basa en cuatro principios simples tales como la honestidad, la inclusión, la calidad humana y la excelencia técnica."
         ></Organization>
         <Aboutus id="aboutus" title1="Sobre Nosotros"></Aboutus>
-        <Customer id="clientes" title1="Casos de uso"></Customer>
+        <Customer id="clientes" title1="Confiaron en Nosotros"></Customer>
         <ContactForm id="contacto" title1="Contactenos"></ContactForm>
       </div>
     );
