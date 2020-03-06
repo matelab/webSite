@@ -53,7 +53,7 @@ const ContactForm = props => {
               <i className="fa fa-github"></i>
             </a>
             <a
-              href="https://www.github.com/matelab"
+              href="https://www.linkedin.com/company/mate-lab"
               target="_blank"
               className="waves-effect waves-light btn-floating social linkedin"
             >
@@ -73,6 +73,13 @@ const ContactForm = props => {
             >
               <i className="fa fa-instagram"></i>
             </a>
+            <a
+              href="https://www.instagram.com/matelab.ok"
+              target="_blank"
+              className="waves-effect waves-light btn-floating social whatsapp"
+            >
+              <i className="fa fa-whatsapp"></i>
+            </a>
           </div>
           <a className="d-block mt-5 text-decoration-none" target="_blank">
             <h4 className="title-footer">
@@ -84,11 +91,12 @@ const ContactForm = props => {
             <h5 className="underline"></h5>
           </a>
           <a className="d-block mt-5 text-decoration-none" target="_blank">
-            <h4 className="title-footer">Comercial:</h4>
-            <h5 className="underline"></h5>
-          </a>
-          <a className="d-block mt-5 text-decoration-none" target="_blank">
-            <h4 className="title-footer">Comunicación:</h4>
+            <h4 className="title-footer">
+              Comercial:&nbsp;&nbsp;
+              <a href="mailto:comercial@matelab.com.ar">
+                comercial@matelab.com.ar
+              </a>
+            </h4>
             <h5 className="underline"></h5>
           </a>
           <div className="social mt-5">
