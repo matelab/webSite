@@ -8,7 +8,7 @@ const arrayIntegrantes = [
     site: "http://www.jpromano.net",
     git: "https://www.github.com/jpromanonet",
     descripcion:
-      "Licenciado en Matemática de la UBA, DevOps, mí rol es resolver problemas de arquitectura en nuestros desarrollos e implementar nuevas tecnologías, duermo poco y vivo a mate(?).",
+      "DevOps(No me gustan los titulos), mí rol es resolver problemas de arquitectura en nuestros desarrollos e implementar nuevas tecnologías, vivo a mate(?).",
     photo: "/perfiles/perfil_juanp.png"
   },
   {
