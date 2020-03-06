@@ -58,28 +58,36 @@ class Nav extends Component {
                 </a>
               </li>
               <li>
-                <a className="anchorLink" href="#clientes" title="clientes">
-                  Casos de uso
-                </a>
-              </li>
-              <li>
-                <a className="anchorLink" href="#organization" title="Organización">
+                <a
+                  className="anchorLink"
+                  href="#organization"
+                  title="Organización"
+                >
                   Organización
                 </a>
               </li>
               <li>
-                <a href="http://blog.matelab.com.ar/" target="_blank" title="Blog">
+                <a
+                  href="http://blog.matelab.com.ar/"
+                  target="_blank"
+                  title="Blog"
+                >
                   Blog
                 </a>
               </li>
-              <li>
+              {/*<li>
                 <a className="anchorLink" href="#i+d" title="Investigación y desarrollo">
                   I+D
                 </a>
-              </li>
+              </li>*/}
               <li>
                 <a className="anchorLink" href="#aboutus" title="Nosotros">
                   Nosotros
+                </a>
+              </li>
+              <li>
+                <a className="anchorLink" href="#clientes" title="clientes">
+                  Casos de uso
                 </a>
               </li>
               <li>
@@ -88,7 +96,11 @@ class Nav extends Component {
                 </a>
               </li>
               <li>
-                <a href="http://soporte.matelab.com.ar" target="_blank" title="Soporte">
+                <a
+                  href="http://soporte.matelab.com.ar"
+                  target="_blank"
+                  title="Soporte"
+                >
                   Soporte
                 </a>
               </li>
@@ -96,46 +108,54 @@ class Nav extends Component {
           </div>
         </nav>
         <ul className="sidenav" id="mobile-demo">
-            <li>
-              <a className="anchorLink" href="#services" title="Servicios">
-                Servicios
-              </a>
-            </li>
-            <li>
-              <a className="anchorLink" href="#clientes" title="clientes">
-                Casos de uso
-              </a>
-            </li>
-            <li>
-              <a className="anchorLink" href="#organization" title="Organización">
-                Organización
-              </a>
-            </li>
-            <li>
-              <a href="http://blog.matelab.com.ar/" target="_blank" title="Blog">
-                Blog
-              </a>
-            </li>
-            <li>
-              <a className="anchorLink" href="#i+d" title="Investigación y desarrollo">
-                I+D
-              </a>
-            </li>
-            <li>
-              <a className="anchorLink" href="#aboutus" title="Nosotros">
-                Nosotros
-              </a>
-            </li>
-            <li>
-              <a className="anchorLink" href="#contacto" title="Contacto">
-                Contacto
-              </a>
-            </li>
-            <li>
-              <a href="http://soporte.matelab.com.ar" target="_blank" title="Soporte">
-                Soporte
-              </a>
-            </li>
+          <li>
+            <a className="anchorLink" href="#services" title="Servicios">
+              Servicios
+            </a>
+          </li>
+          <li>
+            <a className="anchorLink" href="#clientes" title="clientes">
+              Casos de uso
+            </a>
+          </li>
+          <li>
+            <a className="anchorLink" href="#organization" title="Organización">
+              Organización
+            </a>
+          </li>
+          <li>
+            <a href="http://blog.matelab.com.ar/" target="_blank" title="Blog">
+              Blog
+            </a>
+          </li>
+          <li>
+            <a
+              className="anchorLink"
+              href="#i+d"
+              title="Investigación y desarrollo"
+            >
+              I+D
+            </a>
+          </li>
+          <li>
+            <a className="anchorLink" href="#aboutus" title="Nosotros">
+              Nosotros
+            </a>
+          </li>
+          <li>
+            <a className="anchorLink" href="#contacto" title="Contacto">
+              Contacto
+            </a>
+          </li>
+          <li>
+            <a
+              href="http://soporte.matelab.com.ar"
+              target="_blank"
+              title="Soporte"
+            >
+              Soporte
+            </a>
+          </li>
         </ul>
       </div>
     );
