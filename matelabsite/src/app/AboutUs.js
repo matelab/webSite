@@ -65,10 +65,9 @@ const AboutUs = props => {
       <h2 className="titleSection">{props.title1}</h2>
       <div className="row">
         {arrayIntegrantes.map((index, key) => {
-          console.log(index);
           return (
             <div key={`${key}`} className="col l3 s12">
-              <div className="card" width="25%">
+              <div className="card">
                 <div className="card-image waves-effect waves-block waves-light">
                   <img
                     src={`${index.photo}`}
@@ -76,6 +75,7 @@ const AboutUs = props => {
                     alt="Mate Lab"
                     width="50"
                     height="50"
+                    style={{ height: 220 }}
                   />
                 </div>
                 <div className="card-content">
