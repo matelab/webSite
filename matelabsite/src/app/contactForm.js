@@ -7,7 +7,7 @@ const ContactForm = props => {
       <div className="row">
         <div className="col s6">
           <div>
-            <form onSubmit={props.contact} action="enviarConsulta.php">
+            <form onSubmit={props.contact} action="mailContact.php">
               <div className="row">
                 <div className="input-field col s12">
                   <input
