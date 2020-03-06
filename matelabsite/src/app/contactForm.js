@@ -7,7 +7,7 @@ const ContactForm = props => {
       <div className="row">
         <div className="col s6">
           <div>
-            <form onSubmit={props.contact}>
+            <form onSubmit={props.contact} action="enviarConsulta.php">
               <div className="row">
                 <div className="input-field col s12">
                   <input
@@ -16,7 +16,9 @@ const ContactForm = props => {
                     onChange={props.handleChange}
                     value={props.name}
                   />
-                  <label htmlFor="name">Nombre y apellido</label>
+                  <label htmlFor="name" name="nombre">
+                    Nombre y apellido
+                  </label>
                 </div>
                 <div className="input-field col s12">
                   <input
@@ -25,18 +27,22 @@ const ContactForm = props => {
                     onChange={props.handleChange}
                     value={props.email}
                   />
-                  <label htmlFor="email">Email</label>
+                  <label htmlFor="email" name="email">
+                    Email
+                  </label>
                 </div>
                 <div className="input-field col s12">
                   <textarea
                     id="textarea1"
                     className="materialize-textarea"
                   ></textarea>
-                  <label htmlFor="textarea1">Comentarios</label>
+                  <label htmlFor="textarea1" name="consulta">
+                    Consulta
+                  </label>
                 </div>
                 <div className="input-field col s12">
                   <button type="submit" className="btn light-green darken-4">
-                    Enviar
+                    Enviar Consulta!
                   </button>
                 </div>
               </div>
