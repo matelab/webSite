@@ -5,7 +5,7 @@ const arrayIntegrantes = [
     name: "Juan P. Romano",
     job: "Desarrollador Full Stack",
     linkedin: "https://www.linkedin.com/in/jupromano/",
-    site: "http://www.jpromano.net",
+    site: "http://jpromano.net",
     git: "https://www.github.com/jpromanonet",
     descripcion:
       "DevOps(No me gustan los titulos), mí rol es resolver problemas de arquitectura en nuestros desarrollos e implementar nuevas tecnologías, vivo a mate(?).",

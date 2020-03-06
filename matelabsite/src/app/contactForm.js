@@ -5,7 +5,7 @@ const ContactForm = props => {
     <div id={props.id} className={`section ${props.classCustom}`}>
       <h2 className="titleSection">{props.title1}</h2>
       <div className="row">
-        <div className="col s6">
+        <div className="col l6 m6 s12">
           <div>
             <form onSubmit={props.contact} action="mailContact.php">
               <div className="row">
@@ -49,7 +49,7 @@ const ContactForm = props => {
             </form>
           </div>
         </div>
-        <div className="col s6">
+        <div className="col l6 m6 s12">
           <div>
             <a
               href="https://www.github.com/matelab"
