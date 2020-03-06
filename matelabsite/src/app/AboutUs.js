@@ -68,7 +68,7 @@ const AboutUs = props => {
           console.log(index);
           return (
             <div key={`${key}`} className="col l3 s12">
-              <div className="card">
+              <div className="card" width="25%">
                 <div className="card-image waves-effect waves-block waves-light">
                   <img
                     src={`${index.photo}`}
