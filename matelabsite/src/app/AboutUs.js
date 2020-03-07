@@ -2,6 +2,15 @@ import React from "react";
 
 const arrayIntegrantes = [
   {
+    name: "Gabriel D. Lombardo",
+    job: "Desarrollador Front End",
+    linkedin: "https://www.linkedin.com/in/gabriel-dario-lombardo-1531b125/",
+    git: "https://github.com/gaby1986",
+    descripcion:
+      "Tras años de experiencia me he afianzado como desarrollador web,trabajando mayormente en distintos medios digitales. Adquiri herramientas para realizar FrontEnd, sino también motivación a seguir buscando nuevos desafíos y ampliar mis conocimientos como programador. ",
+    photo: "/perfiles/perfil_gaby.jpg"
+  },
+  {
     name: "Juan P. Romano",
     job: "Desarrollador Full Stack",
     linkedin: "https://www.linkedin.com/in/jupromano/",
@@ -10,6 +19,23 @@ const arrayIntegrantes = [
     descripcion:
       "DevOps(No me gustan los titulos), mí rol es resolver problemas de arquitectura en nuestros desarrollos e implementar nuevas tecnologías, vivo a mate(?).",
     photo: "/perfiles/perfil_juanp.png"
+  },
+  {
+    name: "Martin J. Pared Baez",
+    job: "Desarrollador Full Stack",
+    linkedin: "",
+    git: "https://github.com/baubyte",
+    descripcion:
+      "DevOps, especializado en backend, base de datos y algo de FrontEnd, el menos sociable del grupo.",
+    photo: "/perfiles/perfil_tincho.jpg"
+  },
+  {
+    name: "Rosana Caballero",
+    job: "Referente de Gestion",
+    linkedin: "",
+    descripcion:
+      "Licenciada en Administración de Recursos Humanos. Soy la que lleva el papeleo y registro contable de este grupo, la que quiere todo en regla.",
+    photo: "/perfiles/perfil_ro.jpg"
   },
   {
     name: "Maximiliano Salamone",
@@ -23,23 +49,6 @@ const arrayIntegrantes = [
     photo: "/perfiles/perfil_maxi.jpg"
   },
   {
-    name: "Gabriel D. Lombardo",
-    job: "Desarrollador Front End",
-    linkedin: "https://www.linkedin.com/in/gabriel-dario-lombardo-1531b125/",
-    git: "https://github.com/gaby1986",
-    descripcion:
-      "Tras años de experiencia me he afianzado como desarrollador web,trabajando mayormente en distintos medios digitales. Adquiri herramientas para realizar FrontEnd, sino también motivación a seguir buscando nuevos desafíos y ampliar mis conocimientos como programador. ",
-    photo: "/perfiles/perfil_gaby.jpg"
-  },
-  {
-    name: "Rosana Caballero",
-    job: "Referente de Gestion",
-    linkedin: "",
-    descripcion:
-      "Licenciada en Administración de Recursos Humanos. Soy la que lleva el papeleo y registro contable de este grupo, la que quiere todo en regla.",
-    photo: "/perfiles/perfil_ro.jpg"
-  },
-  {
     name: "Ariel Caminos",
     job: "Desarrollador Full Stack",
     linkedin: "https://www.linkedin.com/in/ariel-caminos-3b187863/",
@@ -47,15 +56,6 @@ const arrayIntegrantes = [
     descripcion:
       "Desarrollador full stack, conocimientos en C, Java, PHP, html, css, SQL. Proactivo, con actitud siempre positiva. Amplia experiencia en el trato con el usuario/cliente. A la grande le puse cuca",
     photo: "/perfiles/perfil_ariel.jpg"
-  },
-  {
-    name: "Martin J. Pared Baez",
-    job: "Desarrollador Full Stack",
-    linkedin: "",
-    git: "https://github.com/baubyte",
-    descripcion:
-      "DevOps, especializado en backend, base de datos y algo de FrontEnd, el menos sociable del grupo.",
-    photo: "/perfiles/perfil_tincho.jpg"
   }
 ];
 
@@ -75,7 +75,7 @@ const AboutUs = props => {
                     alt="Mate Lab"
                     width="50"
                     height="50"
-                    style={{ height: 220, maxHeight: 220 }}
+                    style={{ height: 150, maxHeight: 150 }}
                   />
                 </div>
                 <div className="card-content">

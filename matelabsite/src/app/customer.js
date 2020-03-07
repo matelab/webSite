@@ -4,9 +4,6 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
 const arrayImg = [
-  "accusys",
-  "ag",
-  "algeiba",
   "caba",
   "editorialperfil",
   "elcronista",
@@ -17,7 +14,11 @@ const arrayImg = [
   "aysa",
   "obras",
   "Smartledge",
-  "trialcom"
+  "trialcom",
+  "mbm",
+  "accusys",
+  "ag",
+  "algeiba"
 ];
 const style = {
   width: "190px",
@@ -55,7 +56,7 @@ const Customer = props => {
         dots={false}
         autoplay={true}
         slidetransition="linear"
-        autoplayTimeout={10000}
+        autoplayTimeout={7000}
         autoplaySpeed={5000}
         responsive={responsive}
       >
