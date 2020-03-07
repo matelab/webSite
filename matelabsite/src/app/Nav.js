@@ -39,7 +39,7 @@ class Nav extends Component {
         </ul>
         <nav className="black">
           <div className="nav-wrapper">
-            <a href="#!" className="brand-logo">
+            <a href="#" className="brand-logo">
               <img
                 src={logo}
                 className=""
