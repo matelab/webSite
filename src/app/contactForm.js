@@ -58,6 +58,7 @@ const ContactForm = props => {
             >
               <i className="fa fa-github"></i>
             </a>
+            &nbsp;
             <a
               href="https://www.linkedin.com/company/mate-lab"
               target="_blank"
@@ -65,6 +66,7 @@ const ContactForm = props => {
             >
               <i className="fa fa-linkedin"></i>
             </a>
+            &nbsp;
             <a
               href="https://twitter.com/matelabtech"
               target="_blank"
@@ -72,6 +74,7 @@ const ContactForm = props => {
             >
               <i className="fa fa-twitter"></i>
             </a>
+            &nbsp;
             <a
               href="https://www.instagram.com/matelab.ok"
               target="_blank"
@@ -79,6 +82,7 @@ const ContactForm = props => {
             >
               <i className="fa fa-instagram"></i>
             </a>
+            &nbsp;
             <a
               href="https://wa.me/5491121805256"
               target="_blank"
