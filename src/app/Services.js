@@ -42,6 +42,7 @@ const Services = props => {
       <div className="row">
         <div className="col l6 s12">
           <p className="paragraph1">{props.text1}</p>
+          <p className="paragraph1">{props.text2}</p>
         </div>
         <div className="col l6 s12">
           {arrayImg.map((index, key) => {
