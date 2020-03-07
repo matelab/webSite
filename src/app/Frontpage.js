@@ -44,8 +44,8 @@ class Frontpage extends Component {
         <Organization
           id="organization"
           title1="Organización"
-          text1="Somos una cooperativa de tecnologia con una jerarquia horizontal, colaborativa y participativa, donde cada persona tiene un voto y la palabra de todos tiene el mismo valor, no hay jefes, ni CEO, ni CTO ni puestos directivos, porque la idea es trabajar de lo que nos gusta y divertirnos mientras tanto, creando soluciones tecnologicas a problemas fascinantes."
-          text2="En Matelab, todos son escuchados, todo se puede debatir y votar, porque lo importante para nosotros son ante todo las personas y por eso nuestra forma de trabajar se basa en cuatro principios tales como la honestidad, la inclusión, la calidad humana y la excelencia técnica."
+          text1="Somos una cooperativa de tecnologia sin jerarquias, organizada horizontalmente de forma colaborativa y participativa, donde cada persona tiene un voto y la palabra de todos tiene el mismo valor, no hay jefes, ni CEO, ni CTO ni puestos directivos, porque la idea es trabajar de lo que nos apasiona y divertirnos creando soluciones tecnologicas a problemas desafiantes y fascinantes."
+          text2="Matelab es una espacio de trabajo donde todos son escuchados por igual, todo se puede debatir y votar ya que lo importante para nosotros son ante todo las personas y por eso nuestra forma de trabajar se basa en cuatro principios tales como la honestidad, la inclusión, la calidad humana y la excelencia técnica."
         ></Organization>
         <Aboutus id="aboutus" title1="Sobre Nosotros"></Aboutus>
         <Customer id="clientes" title1="Confiaron en Nosotros"></Customer>
