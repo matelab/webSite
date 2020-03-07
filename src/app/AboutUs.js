@@ -3,7 +3,7 @@ import React from "react";
 const arrayIntegrantes = [
   {
     name: "Gabriel Lombardo",
-    job: "Desarrollador Front End",
+    job: "Front End Dev",
     linkedin: "https://www.linkedin.com/in/gabriel-dario-lombardo-1531b125/",
     git: "https://github.com/gaby1986",
     descripcion:
@@ -12,17 +12,17 @@ const arrayIntegrantes = [
   },
   {
     name: "Juan Romano",
-    job: "Desarrollador Full Stack",
+    job: "DevOps",
     linkedin: "https://www.linkedin.com/in/jupromano/",
     site: "http://jpromano.net",
     git: "https://www.github.com/jpromanonet",
     descripcion:
-      "Matemático, desarrollador full stack, mí rol es programar, diseñar y resolver problemas de arquitectura e implementar nuevas tecnologías, vivo a mate(?).",
+      "Matemático, programador, mí rol es programar, diseñar y resolver problemas de arquitectura e implementar nuevas tecnologías, vivo a mate(?).",
     photo: "/perfiles/perfil_juanp.png"
   },
   {
     name: "Martin Pared Baez",
-    job: "Desarrollador Full Stack",
+    job: "DevOps",
     linkedin: "",
     git: "https://github.com/baubyte",
     descripcion:
@@ -31,7 +31,7 @@ const arrayIntegrantes = [
   },
   {
     name: "Rosana Caballero",
-    job: "Referente de Gestion",
+    job: "Ref. Gestion",
     linkedin: "",
     descripcion:
       "Licenciada en Administración de Recursos Humanos. Soy la que lleva el papeleo y registro contable de este grupo, la que quiere todo en regla.",
@@ -39,7 +39,7 @@ const arrayIntegrantes = [
   },
   {
     name: "Ariel Caminos",
-    job: "Desarrollador Full Stack",
+    job: "Full Stack Dev",
     linkedin: "https://www.linkedin.com/in/ariel-caminos-3b187863/",
     git: "https://github.com/ACaminos",
     descripcion:
@@ -48,7 +48,7 @@ const arrayIntegrantes = [
   },
   {
     name: "Maximiliano Salamone",
-    job: "Referente Comercial",
+    job: "Ref. Comercial",
     linkedin:
       "https://www.linkedin.com/in/maximiliano-a-salamone-castro-7a033733/",
     site: "http://qboit.com/",
@@ -84,6 +84,8 @@ const AboutUs = props => {
                     <i className="material-icons right">more_vert</i>
                   </span>
                   <p>
+                    {index.job}
+                    &nbsp;| &nbsp;
                     <a href={`${index.git}`} target="_blank">
                       <i className="fa fa-github"></i>
                     </a>
