@@ -7,7 +7,7 @@ const arrayIntegrantes = [
     linkedin: "https://www.linkedin.com/in/gabriel-dario-lombardo-1531b125/",
     git: "https://github.com/gaby1986",
     descripcion:
-      "Tras años de experiencia me he afianzado como desarrollador web,trabajando mayormente en distintos medios digitales. Adquiri herramientas para realizar FrontEnd, sino también motivación a seguir buscando nuevos desafíos y ampliar mis conocimientos como programador. ",
+      "Tras años de experiencia en distintos medios digitales. Adquiri herramientas como desarrollador Front-End y motivación a seguir buscando nuevos desafíos como programador. ",
     photo: "/perfiles/perfil_gaby.jpg"
   },
   {
