@@ -162,7 +162,7 @@ class Nav extends Component {
             </a>
             <li>
               <a href="../es" title="language">
-                | EN
+                | ES
               </a>
             </li>
           </li>
