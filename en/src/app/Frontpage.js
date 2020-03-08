@@ -38,8 +38,8 @@ class Frontpage extends Component {
         <Services
           id="services"
           title1="Services"
-          text1="We are creators of technological solutions for our clients, making special focus in their satisfaction with a fast and continuous response, providing them with software development, IT support, Infrastructure, BI and Data Science servicies."
-          text2="We create solutions starting from three fundamentals principles: the people, the processes and the products, all of them together allow us to add value to the organizations that chooses us. "
+          text1="We are creators of technological solutions for our clients, making special focus in their satisfaction with a fast and continuous response, providing them with software development, IT support, Infrastructure, BI and Data Science services."
+          text2="We create solutions starting from three fundamentals principles: the people, the processes and the products, all of them together allow us to add value to the organizations that choose us. "
         ></Services>
         <Organization
           id="organization"
