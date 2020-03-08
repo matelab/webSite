@@ -7,7 +7,7 @@ const arrayIntegrantes = [
     linkedin: "https://www.linkedin.com/in/gabriel-dario-lombardo-1531b125/",
     git: "https://github.com/gaby1986",
     descripcion:
-      "Tras años de experiencia en distintos medios digitales, adquirí herramientas como desarrollador FrontEnd y motivación para seguir buscando nuevos desafíos como programador.",
+      "After years of experience in differents digital media companies, I become a Front End Developer and get the motivation to keep searching for new challenges as a developer.",
     photo: "/perfiles/perfil_gaby.jpg"
   },
   {
@@ -17,7 +17,7 @@ const arrayIntegrantes = [
     site: "http://jpromano.net",
     git: "https://www.github.com/jpromanonet",
     descripcion:
-      "Matemático, programador, mí rol es programar, diseñar y resolver problemas de arquitectura e implementar nuevas tecnologías, vivo a mate(?).",
+      "Mathematician and programmer, I program, design and solve architecture problems also i'm always making experiments with new technologies, i'm always drinking mate(?).",
     photo: "/perfiles/perfil_juanp.png"
   },
   {
@@ -26,7 +26,7 @@ const arrayIntegrantes = [
     linkedin: "",
     git: "https://github.com/baubyte",
     descripcion:
-      "DevOps, especializado en BackEnd, base de datos y algo de FrontEnd, el menos sociable del grupo.",
+      "DevOps, with special focus on Backend development, databases and some Frontend, i'm the less social of the group.",
     photo: "/perfiles/perfil_tincho.jpg"
   },
   {
@@ -34,7 +34,7 @@ const arrayIntegrantes = [
     job: "Ref. Gestion",
     linkedin: "",
     descripcion:
-      "Licenciada en Administración de Recursos Humanos. Soy la que lleva el papeleo y registro contable de este grupo, la que quiere todo en regla.",
+      "With a degree in Human Resources Administration, i'm the one who is in charge of paperwork and the accounting in the group, the one who wants everything in perfect order.",
     photo: "/perfiles/perfil_ro.jpg"
   },
   {
@@ -43,7 +43,7 @@ const arrayIntegrantes = [
     linkedin: "https://www.linkedin.com/in/ariel-caminos-3b187863/",
     git: "https://github.com/ACaminos",
     descripcion:
-      "Desarrollador full stack, conocimientos en C, JAVA, PHP, HTML, CSS, SQL. Pro activo, con actitud siempre positiva. Amplia experiencia en el trato con el usuario/cliente. A la grande le puse cuca.",
+      "Full Stack developer with knowledgments in C, JAVA, PHP, HTML, CSS and SQL, proactive, always with a positive actitude,  wide experience dealing with costumers. The big one i called it cuca.",
     photo: "/perfiles/perfil_ariel.jpg"
   },
   {
@@ -54,7 +54,7 @@ const arrayIntegrantes = [
     site: "http://qboit.com/",
     git: "https://github.com/maxisalamone",
     descripcion:
-      "DevOps, con especialidad en implementación en la nube, BackEnd, base de datos. Licenciado en Relaciones Internacionales, en pos del costado humano de nuestros desarrollos.",
+      "DevOps with focus on cloud implementation, backend and databases with a degree in International Relationships, i'm in the human side of our developments.",
     photo: "/perfiles/perfil_maxi.jpg"
   }
 ];
