@@ -31,7 +31,7 @@ const arrayIntegrantes = [
   },
   {
     name: "Rosana Caballero",
-    job: "Ref. Gestion",
+    job: "Office Administrator",
     linkedin: "",
     descripcion:
       "With a degree in Human Resources Administration, i'm the one who is in charge of paperwork and the accounting in the group, the one who wants everything in perfect order.",
@@ -48,7 +48,7 @@ const arrayIntegrantes = [
   },
   {
     name: "Maximiliano Salamone",
-    job: "Ref. Comercial",
+    job: "Sales Leader",
     linkedin:
       "https://www.linkedin.com/in/maximiliano-a-salamone-castro-7a033733/",
     site: "http://qboit.com/",
