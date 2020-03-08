@@ -161,7 +161,7 @@ class Nav extends Component {
               Soporte
             </a>
             <li>
-              <a href="../es" target="_blank" title="language">
+              <a href="../es" title="language">
                 | EN
               </a>
             </li>
