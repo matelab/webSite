@@ -54,7 +54,7 @@ class Nav extends Component {
             <ul className="right hide-on-med-and-down">
               <li>
                 <a className="anchorLink" href="#services" title="Servicios">
-                  Servicies
+                  Services
                 </a>
               </li>
               <li>
@@ -105,7 +105,7 @@ class Nav extends Component {
                 </a>
               </li>
               <li>
-                <a href="../es" target="_blank" title="language">
+                <a href="../es" title="language">
                   | ES
                 </a>
               </li>
@@ -115,17 +115,17 @@ class Nav extends Component {
         <ul className="sidenav" id="mobile-demo">
           <li>
             <a className="anchorLink" href="#services" title="Servicios">
-              Servicios
+              Services
             </a>
           </li>
           <li>
             <a className="anchorLink" href="#clientes" title="clientes">
-              Casos de uso
+              Use Cases
             </a>
           </li>
           <li>
             <a className="anchorLink" href="#organization" title="Organización">
-              Organización
+              Organization
             </a>
           </li>
           <li>
@@ -144,12 +144,12 @@ class Nav extends Component {
           </li>*/}
           <li>
             <a className="anchorLink" href="#aboutus" title="Nosotros">
-              Nosotros
+              About Us
             </a>
           </li>
           <li>
             <a className="anchorLink" href="#contacto" title="Contacto">
-              Contacto
+              Contact Us
             </a>
           </li>
           <li>
@@ -158,7 +158,7 @@ class Nav extends Component {
               target="_blank"
               title="Soporte"
             >
-              Soporte
+              Support
             </a>
             <li>
               <a href="../es" title="language">

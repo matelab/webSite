@@ -49,7 +49,7 @@ const Services = props => {
             return (
               <img
                 key={`${key}`}
-                src={`../logos/${index}`}
+                src={`../en/logos/${index}`}
                 className="logosLenguaje"
                 alt={`${index}`}
                 width="75"
