@@ -7,7 +7,7 @@ const arrayIntegrantes = [
     linkedin: "https://www.linkedin.com/in/gabriel-dario-lombardo-1531b125/",
     git: "https://github.com/gaby1986",
     descripcion:
-      "After years of experience in differents digital media companies, I become a Front End Developer and get the motivation to keep searching for new challenges as a developer.",
+      "After years of experience in different digital media companies, I become a Front End Developer and get the motivation to keep searching for new challenges as a developer.",
     photo: "/en/perfiles/perfil_gaby.jpg"
   },
   {
