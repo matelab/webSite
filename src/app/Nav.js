@@ -104,6 +104,11 @@ class Nav extends Component {
                   Soporte
                 </a>
               </li>
+              <li>
+                <a href="/en" target="_blank" title="language">
+                  | EN
+                </a>
+              </li>
             </ul>
           </div>
         </nav>
@@ -155,6 +160,11 @@ class Nav extends Component {
             >
               Soporte
             </a>
+            <li>
+              <a href="/en" target="_blank" title="language">
+                | EN
+              </a>
+            </li>
           </li>
         </ul>
       </div>
