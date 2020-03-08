@@ -17,7 +17,7 @@ const ContactForm = props => {
                     value={props.name}
                   />
                   <label htmlFor="name" name="nombre">
-                    Nombre y apellido
+                    Your name
                   </label>
                 </div>
                 <div className="input-field col s12">
@@ -28,7 +28,7 @@ const ContactForm = props => {
                     value={props.email}
                   />
                   <label htmlFor="email" name="email">
-                    Email
+                    Your Email
                   </label>
                 </div>
                 <div className="input-field col s12">
@@ -37,12 +37,12 @@ const ContactForm = props => {
                     className="materialize-textarea"
                   ></textarea>
                   <label htmlFor="textarea1" name="consulta">
-                    Consulta
+                    Write your questions here
                   </label>
                 </div>
                 <div className="input-field col s12">
                   <button type="submit" className="btn light-green darken-4">
-                    Enviar Consulta!
+                    Send!
                   </button>
                 </div>
               </div>
@@ -93,19 +93,15 @@ const ContactForm = props => {
           </div>
           <a className="d-block mt-5 text-decoration-none" target="_blank">
             <h4 className="title-footer">
-              Consultas:&nbsp;&nbsp;
-              <a href="mailto:contacto@matelab.com.ar">
-                contacto@matelab.com.ar
-              </a>
+              Contact:&nbsp;&nbsp;
+              <a href="mailto:contact@matelab.com.ar">contact@matelab.com.ar</a>
             </h4>
             <h5 className="underline"></h5>
           </a>
           <a className="d-block mt-5 text-decoration-none" target="_blank">
             <h4 className="title-footer">
-              Comercial:&nbsp;&nbsp;
-              <a href="mailto:comercial@matelab.com.ar">
-                comercial@matelab.com.ar
-              </a>
+              Sales:&nbsp;&nbsp;
+              <a href="mailto:sales@matelab.com.ar">sales@matelab.com.ar</a>
             </h4>
             <h5 className="underline"></h5>
           </a>
