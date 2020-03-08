@@ -8,7 +8,7 @@ const arrayIntegrantes = [
     git: "https://github.com/gaby1986",
     descripcion:
       "Tras años de experiencia en distintos medios digitales, adquirí herramientas como desarrollador FrontEnd y motivación para seguir buscando nuevos desafíos como programador.",
-    photo: "/perfiles/perfil_gaby.jpg"
+    photo: "/es/perfiles/perfil_gaby.jpg"
   },
   {
     name: "Juan Romano",
@@ -18,7 +18,7 @@ const arrayIntegrantes = [
     git: "https://www.github.com/jpromanonet",
     descripcion:
       "Matemático, programador, mí rol es programar, diseñar y resolver problemas de arquitectura e implementar nuevas tecnologías, vivo a mate(?).",
-    photo: "/perfiles/perfil_juanp.png"
+    photo: "/es/perfiles/perfil_juanp.png"
   },
   {
     name: "Martin Pared Baez",
@@ -27,7 +27,7 @@ const arrayIntegrantes = [
     git: "https://github.com/baubyte",
     descripcion:
       "DevOps, especializado en BackEnd, base de datos y algo de FrontEnd, el menos sociable del grupo.",
-    photo: "/perfiles/perfil_tincho.jpg"
+    photo: "/es/perfiles/perfil_tincho.jpg"
   },
   {
     name: "Rosana Caballero",
@@ -35,7 +35,7 @@ const arrayIntegrantes = [
     linkedin: "",
     descripcion:
       "Licenciada en Administración de Recursos Humanos. Soy la que lleva el papeleo y registro contable de este grupo, la que quiere todo en regla.",
-    photo: "/perfiles/perfil_ro.jpg"
+    photo: "/es/perfiles/perfil_ro.jpg"
   },
   {
     name: "Ariel Caminos",
@@ -44,7 +44,7 @@ const arrayIntegrantes = [
     git: "https://github.com/ACaminos",
     descripcion:
       "Desarrollador full stack, conocimientos en C, JAVA, PHP, HTML, CSS, SQL. Pro activo, con actitud siempre positiva. Amplia experiencia en el trato con el usuario/cliente. A la grande le puse cuca.",
-    photo: "/perfiles/perfil_ariel.jpg"
+    photo: "/es/perfiles/perfil_ariel.jpg"
   },
   {
     name: "Maximiliano Salamone",
@@ -55,7 +55,7 @@ const arrayIntegrantes = [
     git: "https://github.com/maxisalamone",
     descripcion:
       "DevOps, con especialidad en implementación en la nube, BackEnd, base de datos. Licenciado en Relaciones Internacionales, en pos del costado humano de nuestros desarrollos.",
-    photo: "/perfiles/perfil_maxi.jpg"
+    photo: "/es/perfiles/perfil_maxi.jpg"
   }
 ];
 

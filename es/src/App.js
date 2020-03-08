@@ -15,7 +15,7 @@ function App() {
   return (
     <Router>
       <Nav></Nav>
-      <Route path="/" exact component={Frontpage} />
+      <Route path="/es/" exact component={Frontpage} />
       <Footer></Footer>
     </Router>
   );

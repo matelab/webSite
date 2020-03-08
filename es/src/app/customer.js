@@ -65,7 +65,7 @@ const Customer = props => {
             <div key={`${key}`} className="item">
               <div style={style}>
                 <img
-                  src={`../logosClientes/${index}.png`}
+                  src={`../es/logosClientes/${index}.png`}
                   className="logosLenguaje"
                   alt="Mate Lab"
                   width="190"
