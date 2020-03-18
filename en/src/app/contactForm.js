@@ -13,8 +13,8 @@ const ContactForm = props => {
                   <input
                     type="text"
                     name="name"
-                    onChange={props.handleChange}
-                    value={props.name}
+                    onChange={props.nameChange}
+                    value={props.nameValue}
                   />
                   <label htmlFor="name" name="nombre">
                     Your name
@@ -22,10 +22,10 @@ const ContactForm = props => {
                 </div>
                 <div className="input-field col s12">
                   <input
-                    type="text"
+                    type="email"
                     name="email"
-                    onChange={props.handleChange}
-                    value={props.email}
+                    onChange={props.emailChange}
+                    value={props.emailValue}
                   />
                   <label htmlFor="email" name="email">
                     Your Email
@@ -33,13 +33,17 @@ const ContactForm = props => {
                 </div>
                 <div className="input-field col s12">
                   <textarea
-                    id="textarea1"
+                    id="query"
+                    name = "query"
+                    onChange={props.queryChange}
+                    value={props.queryValue}
                     className="materialize-textarea"
                   ></textarea>
-                  <label htmlFor="textarea1" name="consulta">
+                  <label htmlFor="query" name="consulta">
                     Write your questions here
                   </label>
                 </div>
+                <p className="paragraph1">{props.message}</p>
                 <div className="input-field col s12">
                   <button type="submit" className="btn light-green darken-4">
                     Send!

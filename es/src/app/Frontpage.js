@@ -12,20 +12,38 @@ class Frontpage extends Component {
     this.state = {
       name: "",
       email: "",
-      pass: "",
-      confirm_pass: "",
-      error: null
+      query: "",
+      message:""
     };
-    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
   }
-
-  handleChange(e) {
-    const { name, value } = e.target;
+  onChange(e)
+  {
     this.setState({
-      [name]: value
-    });
+      [e.target.name]: e.target.value
+    })
   }
-
+  handleSubmit(event) 
+  {
+    event.preventDefault();
+    const data = new FormData(event.target);
+    fetch('http://www.matelab.com.ar/es/mailContact.php', {
+      body: data,
+      method: 'POST',     
+    }).then(response => {
+      if(response.ok) {
+        return response.text()
+      }
+    }).then(response => {
+      this.setState({
+        message:response
+      })
+   }).catch(error =>{
+        this.setState({
+          message:"Ocurrió un error con MeteLab por favor Recarga la Web"
+        })
+    })
+  }
   render() {
     return (
       <div className="container-fluid">
@@ -49,8 +67,14 @@ class Frontpage extends Component {
         ></Organization>
         <Aboutus id="aboutus" title1="Sobre Nosotros"></Aboutus>
         <Customer id="clientes" title1="Confiaron en Nosotros"></Customer>
-        <ContactForm id="contacto" title1="Contactenos"></ContactForm>
+        <ContactForm id="contacto" title1="Contactenos" contact={this.handleSubmit} 
+        nameChange={this.onChange.bind(this)} nameValue={this.state.name} 
+        emailChange={this.onChange.bind(this)} emailValue={this.state.email} 
+        queryChange={this.onChange.bind(this)} queryValue={this.state.query}
+        message ={this.state.message}>
+        </ContactForm>
       </div>
+
     );
   }
 }
