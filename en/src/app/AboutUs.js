@@ -23,7 +23,7 @@ const arrayIntegrantes = [
   {
     name: "Martin Pared Baez",
     job: "DevOps",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/mparedbaez/",
     git: "https://github.com/baubyte",
     descripcion:
       "DevOps, with special focus on Backend development, databases and some Frontend, i'm the less social of the group.",
