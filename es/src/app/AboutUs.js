@@ -43,6 +43,7 @@ const arrayIntegrantes = [
     name: "Ariel Caminos",
     job: "Full Stack Dev",
     linkedin: "https://www.linkedin.com/in/ariel-caminos-3b187863/",
+    site: "https://resumes.matelab.com.ar/es/acaminos.pdf",
     git: "https://github.com/ACaminos",
     descripcion:
       "Desarrollador full stack, conocimientos en C, JAVA, PHP, HTML, CSS, SQL. Pro activo, con actitud siempre positiva. Amplia experiencia en el trato con el usuario/cliente. A la grande le puse cuca.",
