@@ -5,6 +5,7 @@ const arrayIntegrantes = [
     name: "Gabriel Lombardo",
     job: "Front End Dev",
     linkedin: "https://www.linkedin.com/in/gabriel-dario-lombardo-1531b125/",
+    site: "https://resumes.matelab.com.ar/es/glombardo.pdf",
     git: "https://github.com/gaby1986",
     descripcion:
       "Tras años de experiencia en distintos medios digitales, adquirí herramientas como desarrollador FrontEnd y motivación para seguir buscando nuevos desafíos como programador.",
