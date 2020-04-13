@@ -23,6 +23,7 @@ const arrayIntegrantes = [
   {
     name: "Martin Pared Baez",
     job: "DevOps",
+    site: "http://resumes.matelab.com.ar/es/mparedbaez.pdf",
     linkedin: "https://www.linkedin.com/in/mparedbaez/",
     git: "https://github.com/baubyte",
     descripcion:
