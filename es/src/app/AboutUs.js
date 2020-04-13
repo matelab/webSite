@@ -23,7 +23,7 @@ const arrayIntegrantes = [
   {
     name: "Martin Pared Baez",
     job: "DevOps",
-    site: "http://resumes.matelab.com.ar/es/mparedbaez.pdf",
+    site: "https://resumes.matelab.com.ar/es/mparedbaez.pdf",
     linkedin: "https://www.linkedin.com/in/mparedbaez/",
     git: "https://github.com/baubyte",
     descripcion:
@@ -52,7 +52,7 @@ const arrayIntegrantes = [
     job: "Ref. Comercial",
     linkedin:
       "https://www.linkedin.com/in/maximiliano-a-salamone-castro-7a033733/",
-    site: "http://qboit.com/",
+    site: "https://resumes.matelab.com.ar/es/msalamone.pdf",
     git: "https://github.com/maxisalamone",
     descripcion:
       "DevOps, con especialidad en implementación en la nube, BackEnd, base de datos. Licenciado en Relaciones Internacionales, en pos del costado humano de nuestros desarrollos.",
