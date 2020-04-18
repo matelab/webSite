@@ -5,6 +5,7 @@ const arrayIntegrantes = [
     name: "Gabriel Lombardo",
     job: "Front End Dev",
     linkedin: "https://www.linkedin.com/in/gabriel-dario-lombardo-1531b125/",
+    site: "https://resumes.matelab.com.ar/en/glombardo.pdf",
     git: "https://github.com/gaby1986",
     descripcion:
       "After years of experience in different digital media companies, I become a Front End Developer and get the motivation to keep searching for new challenges as a developer.",
@@ -24,6 +25,7 @@ const arrayIntegrantes = [
     name: "Martin Pared Baez",
     job: "DevOps",
     linkedin: "https://www.linkedin.com/in/mparedbaez/",
+    site: "https://resumes.matelab.com.ar/en/mparedbaez.pdf",
     git: "https://github.com/baubyte",
     descripcion:
       "DevOps, with special focus on Backend development, databases and some Frontend, i'm the less social of the group.",
