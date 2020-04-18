@@ -35,7 +35,7 @@ const arrayIntegrantes = [
     name: "Rosana Caballero",
     job: "Ref. Gestion",
     site: "https://resumes.matelab.com.ar/es/rcaballero.pdf",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/rosanacaballero/",
     descripcion:
       "Licenciada en Administración de Recursos Humanos. Soy la que lleva el papeleo y registro contable de este grupo, la que quiere todo en regla.",
     photo: "/es/perfiles/perfil_ro.jpg"
