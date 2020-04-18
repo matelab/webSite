@@ -32,7 +32,7 @@ const arrayIntegrantes = [
   {
     name: "Rosana Caballero",
     job: "Office Administrator",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/rosanacaballero/",
     descripcion:
       "With a degree in Human Resources Administration, i'm the one who is in charge of paperwork and the accounting in the group, the one who wants everything in perfect order.",
     photo: "/en/perfiles/perfil_ro.jpg"
