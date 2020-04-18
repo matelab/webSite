@@ -35,6 +35,7 @@ const arrayIntegrantes = [
     name: "Rosana Caballero",
     job: "Office Administrator",
     linkedin: "https://www.linkedin.com/in/rosanacaballero/",
+    site: "https://resumes.matelab.com.ar/en/rcaballero.pdf",
     descripcion:
       "With a degree in Human Resources Administration, i'm the one who is in charge of paperwork and the accounting in the group, the one who wants everything in perfect order.",
     photo: "/en/perfiles/perfil_ro.jpg"
@@ -43,6 +44,7 @@ const arrayIntegrantes = [
     name: "Ariel Caminos",
     job: "Full Stack Dev",
     linkedin: "https://www.linkedin.com/in/ariel-caminos-3b187863/",
+    site: "https://resumes.matelab.com.ar/en/acaminos.pdf",
     git: "https://github.com/ACaminos",
     descripcion:
       "Full Stack developer with knowledgments in C, JAVA, PHP, HTML, CSS and SQL, proactive, always with a positive actitude,  wide experience dealing with costumers. The big one i called it cuca.",
@@ -53,7 +55,7 @@ const arrayIntegrantes = [
     job: "Sales Leader",
     linkedin:
       "https://www.linkedin.com/in/maximiliano-a-salamone-castro-7a033733/",
-    site: "http://qboit.com/",
+    site: "https://resumes.matelab.com.ar/en/msalamone.pdf",
     git: "https://github.com/maxisalamone",
     descripcion:
       "DevOps with focus on cloud implementation, backend and databases with a degree in International Relationships, i'm in the human side of our developments.",
