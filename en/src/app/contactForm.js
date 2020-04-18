@@ -34,7 +34,7 @@ const ContactForm = props => {
                 <div className="input-field col s12">
                   <textarea
                     id="query"
-                    name = "query"
+                    name="query"
                     onChange={props.queryChange}
                     value={props.queryValue}
                     className="materialize-textarea"
@@ -85,6 +85,14 @@ const ContactForm = props => {
               className="waves-effect waves-light btn-floating social instagram"
             >
               <i className="fa fa-instagram"></i>
+            </a>
+            &nbsp;
+            <a
+              href="https://medium.com/@matelab"
+              target="_blank"
+              className="waves-effect waves-light btn-floating social medium"
+            >
+              <i className="fa fa-medium"></i>
             </a>
             &nbsp;
             <a
