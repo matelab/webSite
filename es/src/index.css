@@ -172,7 +172,9 @@ canvas {
 .sidenav-overlay {
   z-index: 1 !important;
 }
-
+.customImgCard{
+  height: 180px;
+}
 @media only screen and (max-width: 992px) {
   .nextLogo {
     display: none !important;
