@@ -72,14 +72,14 @@ const AboutUs = props => {
           return (
             <div key={`${key}`} className="col l3 s12">
               <div className="card">
-                <div className="card-image waves-effect waves-block waves-light">
+                <div className="card-image waves-effect waves-block waves-light customImgCard">
                   <img
                     src={`${index.photo}`}
                     className="imgAboutUs"
                     alt="Mate Lab"
                     width="50"
                     height="50"
-                    style={{ height: 150, maxHeight: 150 }}
+                    style={{ height: "auto" }}
                   />
                 </div>
                 <div className="card-content">
