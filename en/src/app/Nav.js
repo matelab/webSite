@@ -68,7 +68,7 @@ class Nav extends Component {
               </li>
               <li>
                 <a
-                  href="http://blog.matelab.com.ar/"
+                  href="https://blog.matelab.com.ar/"
                   target="_blank"
                   title="Blog"
                 >
