@@ -73,6 +73,7 @@ canvas {
   background-color: #e6e6e6;
 }
 #services .paragraph1,
+#products .paragraph1,
 #organization .paragraph1 {
   font-size: 1.6rem;
   line-height: 2.5rem;

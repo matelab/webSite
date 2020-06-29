@@ -5,6 +5,7 @@ import Services from "./Services";
 import Customer from "./customer";
 import Aboutus from "./AboutUs";
 import Organization from "./Organization";
+import Products from "./Products";
 
 class Frontpage extends Component {
   constructor(props) {
@@ -60,6 +61,12 @@ class Frontpage extends Component {
           text1="Somos creadores de soluciones tecnológicas para nuestros clientes, enfocándonos en su satisfacción junto con una rápida respuesta de manera continua, brindándoles servicios de desarrollo de Software, Soporte IT, Infraestructura, Business Inteligence y Data Science."
           text2="Creamos soluciones a partir de tres principios fundamentales: las personas, los procesos y los productos, que nos permite generar valor agregado a las organizaciones de quienes nos eligen."
         ></Services>
+        <Products
+          id="products"
+          title1="productos"
+          text1="Somos creadores de soluciones tecnológicas para nuestros clientes, enfocándonos en su satisfacción junto con una rápida respuesta de manera continua, brindándoles servicios de desarrollo de Software, Soporte IT, Infraestructura, Business Inteligence y Data Science."
+          text2="Creamos soluciones a partir de tres principios fundamentales: las personas, los procesos y los productos, que nos permite generar valor agregado a las organizaciones de quienes nos eligen."
+        ></Products>
         <Organization
           id="organization"
           title1="Organización"
