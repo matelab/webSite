@@ -27,7 +27,7 @@ class Frontpage extends Component {
   {
     event.preventDefault();
     const data = new FormData(event.target);
-    fetch('http://www.matelab.com.ar/en/mailContact.php', {
+    fetch('https://www.matelab.com.ar/en/mailContact.php', {
       body: data,
       method: 'POST',     
     }).then(response => {
