@@ -68,7 +68,7 @@ const arrayIntegrantes = [
       "https://www.linkedin.com/in/abraham-marval/",
     site: "https://resumes.matelab.com.ar/es/amarval.pdf",
     descripcion:
-      "Computer Engineer, front-end developer with years of experience developing website, blogs, e-commerces and corporative image and a lot more, passionate about learning new things all the time, born gamer :)",
+      "Computer Engineer, front-end developer with years of experience developing websites, blogs, e-commerces, corporative image and more, passionate about learning new things all the time, born gamer :)",
     photo: "/es/perfiles/perfil_abraham.jpg"
   }
 ];
