@@ -60,6 +60,16 @@ const arrayIntegrantes = [
     descripcion:
       "DevOps with focus on cloud implementation, backend and databases with a degree in International Relationships, i'm in the human side of our developments.",
     photo: "/en/perfiles/perfil_maxi.jpg"
+  },
+  {
+    name: "Abraham Marval",
+    job: "Front End Dev",
+    linkedin:
+      "https://www.linkedin.com/in/abraham-marval/",
+    site: "https://resumes.matelab.com.ar/es/amarval.pdf",
+    descripcion:
+      "Computer Engineer, front-end developer with years of experience developing website, blogs, e-commerces and corporative image and a lot more, passionate about learning new things all the time, born gamer :)",
+    photo: "/es/perfiles/perfil_abraham.jpg"
   }
 ];
 
