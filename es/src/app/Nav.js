@@ -97,7 +97,7 @@ class Nav extends Component {
               </li>
               <li>
                 <a
-                  href="https://soporte.matelab.com.ar"
+                  href="https://matelab.com.ar/nucleoNegocio/htdocs/public/ticket/index.php"
                   target="_blank"
                   title="Soporte"
                 >
