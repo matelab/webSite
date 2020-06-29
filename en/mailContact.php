@@ -1,7 +1,7 @@
 <?php
  header('Access-Control-Allow-Origin: *');
  header('Access-Control-Allow-Methods: GET, POST');
- header('Access-Control-Allow-Headers: Content-Type');  
+ header('Access-Control-Allow-Headers: Content-Type');
 	/**INCLUIMOS LAS LIBRERIAS */
 	require_once "../extensions/vendor/autoload.php";
 	/**TRAEMOS LAS CLASES NECESARIAS */
@@ -11,14 +11,14 @@
 	//require("classMailer/class.phpmailer.php");
 	//require("classMailer/class.smtp.php");
 
-	if (!empty($_POST['name']) 
-		and !empty($_POST['email']) 
+	if (!empty($_POST['name'])
+		and !empty($_POST['email'])
 		and !empty($_POST['query']) ) {
 
 	/**DATOS DE LA CUENTA Y SERVIDOR SMTP */
-	$smtpHost = "c1401544.ferozo.com";  
-	$smtpUsuario = "contacto@matelab.com.ar";  
-	$smtpClave = "MateAmargo2019";  
+	$smtpHost = "c1401544.ferozo.com";
+	$smtpUsuario = "contacto@matelab.com.ar";
+	$smtpClave = "MateAmargo2019";
 
 	/**RECIBIMOS LOS DATOS DEL FORM */
 	$first_name = $_POST['name'];
@@ -34,22 +34,22 @@
 
 	/**CONFIGURACIONES SMTP */
 	$mail->SMTPAuth = true;
-	$mail->Port = 465; 
+	$mail->Port = 465;
 	$mail->SMTPSecure = 'ssl';
-	$mail->Host = $smtpHost; 
-	$mail->Username = $smtpUsuario; 
+	$mail->Host = $smtpHost;
+	$mail->Username = $smtpUsuario;
 	$mail->Password = $smtpClave;
-	
+
 	$mail->setFrom("contacto@matelab.com.ar", "MateLab");
 	$mail->addReplyTo("contacto@matelab.com.ar", "MateLab");
 	$mail->Subject  = "MateLab - We develop technology ";
 	$mail->addAddress($email);
 	/**GABI PONELE TU MAGIA A LA PLANTILLA DEL MAIL JAJAJA */
-	$mail->msgHTML('<div style="width:100%; background:#eee; position:relative; font-family:sans-serif; padding-bottom:40px">	
-						<center>								
-							<img style="padding:20px; width:10%" src="http://matelab.com.ar/img/mate.png">
+	$mail->msgHTML('<div style="width:100%; background:#eee; position:relative; font-family:sans-serif; padding-bottom:40px">
+						<center>
+							<img style="padding:20px; width:10%" src="https://matelab.com.ar/img/mate.png">
 						</center>
-						<div style="position:relative; margin:auto; width:600px; background:white; padding:20px">							
+						<div style="position:relative; margin:auto; width:600px; background:white; padding:20px">
 							<center>
 								<img style="padding:20px; width:15%" src="https://img.icons8.com/nolan/96/000000/email.png">
 								<h3 style="font-weight:100; color:#999">Thank you for your contact with Matelab</h3>
@@ -59,7 +59,7 @@
 								<br>
 								<hr style="border:1px solid #ccc; width:80%">
 								<h5 style="font-weight:100; color:#999">If you did not complete any contact form, you could ignore and delete this e-mail</h5>
-							</center>	
+							</center>
 						</div>
 					</div>');
 	$envio = $mail->Send();
@@ -73,10 +73,10 @@
 
 	/**CONFIGURACIONES SMTP */
 	$mailMateLab->SMTPAuth = true;
-	$mailMateLab->Port = 465; 
+	$mailMateLab->Port = 465;
 	$mailMateLab->SMTPSecure = 'ssl';
-	$mailMateLab->Host = $smtpHost; 
-	$mailMateLab->Username = $smtpUsuario; 
+	$mailMateLab->Host = $smtpHost;
+	$mailMateLab->Username = $smtpUsuario;
 	$mailMateLab->Password = $smtpClave;
 
 	$mailMateLab->setFrom($email, $first_name);
@@ -85,10 +85,10 @@
 	$mailMateLab->addAddress('contacto@matelab.com.ar');
 	/**GABI ACA LO MISMO JAJAJA*/
 	$mailMateLab->msgHTML('<div style="width:100%; background:#eee; position:relative; font-family:sans-serif; padding-bottom:40px">
-						<center>						
-							<img style="padding:20px; width:10%" src="http://matelab.com.ar/img/mate.png">
+						<center>
+							<img style="padding:20px; width:10%" src="https://matelab.com.ar/img/mate.png">
 						</center>
-						<div style="position:relative; margin:auto; width:600px; background:white; padding:20px">							
+						<div style="position:relative; margin:auto; width:600px; background:white; padding:20px">
 							<center>
 								<img style="padding:20px; width:15%" src="https://img.icons8.com/nolan/96/000000/email.png">
 								<h3 style="font-weight:100; color:#999">La Persona ' . $first_name . '</h3>
@@ -114,7 +114,7 @@
 		$return = 'You question was sent, we are going to reach to you soon, be patient.';
 	}
 
-	// Create JSON 
+	// Create JSON
 
 	echo $return;
 }
