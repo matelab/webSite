@@ -60,6 +60,16 @@ const arrayIntegrantes = [
     descripcion:
       "DevOps, con especialidad en implementación en la nube, BackEnd, base de datos. Licenciado en Relaciones Internacionales, en pos del costado humano de nuestros desarrollos.",
     photo: "/es/perfiles/perfil_maxi.jpg"
+  },
+  {
+    name: "Abraham Marval",
+    job: "Front End Dev",
+    linkedin:
+      "https://www.linkedin.com/in/maximiliano-a-salamone-castro-7a033733/",
+    site: "https://resumes.matelab.com.ar/es/amarval.pdf",
+    descripcion:
+      "Ingeniero de Sistemas, con experiencia en el desarrollo de sitios web profesionales, e-commerce, blogs, imagen corporativa y mucho más. Apasionado y motivado en aprender siempre. Gamer de nacimiento.",
+    photo: "/es/perfiles/perfil_abraham.jpg"
   }
 ];
 
