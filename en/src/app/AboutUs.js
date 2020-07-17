@@ -49,27 +49,6 @@ const arrayIntegrantes = [
     descripcion:
       "Full Stack developer with knowledgments in C, JAVA, PHP, HTML, CSS and SQL, proactive, always with a positive actitude,  wide experience dealing with costumers. The big one i called it cuca.",
     photo: "/en/perfiles/perfil_ariel.jpg"
-  },
-  {
-    name: "Maximiliano Salamone",
-    job: "Sales Leader",
-    linkedin:
-      "https://www.linkedin.com/in/maximiliano-a-salamone-castro-7a033733/",
-    site: "https://resumes.matelab.com.ar/en/msalamone.pdf",
-    git: "https://github.com/maxisalamone",
-    descripcion:
-      "DevOps with focus on cloud implementation, backend and databases with a degree in International Relationships, i'm in the human side of our developments.",
-    photo: "/en/perfiles/perfil_maxi.jpg"
-  },
-  {
-    name: "Abraham Marval",
-    job: "Front End Dev",
-    linkedin:
-      "https://www.linkedin.com/in/abraham-marval/",
-    site: "https://resumes.matelab.com.ar/es/amarval.pdf",
-    descripcion:
-      "Computer Engineer, front-end developer with years of experience developing websites, blogs, e-commerces, corporative image and more, passionate about learning new things all the time, born gamer :)",
-    photo: "/es/perfiles/perfil_abraham.jpg"
   }
 ];
 
