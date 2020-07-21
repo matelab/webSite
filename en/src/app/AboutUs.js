@@ -9,7 +9,7 @@ const arrayIntegrantes = [
     git: "https://github.com/gaby1986",
     descripcion:
       "After years of experience in different digital media companies, I become a Front End Developer and get the motivation to keep searching for new challenges as a developer.",
-    photo: "/en/perfiles/perfil_gaby.jpg"
+    photo: "/en/perfiles/perfil_gaby.jpg",
   },
   {
     name: "Juan Romano",
@@ -19,7 +19,7 @@ const arrayIntegrantes = [
     git: "https://www.github.com/jpromanonet",
     descripcion:
       "Mathematician and programmer, I program, design and solve architecture problems also i'm always making experiments with new technologies, i'm always drinking mate(?).",
-    photo: "/en/perfiles/perfil_juanp.png"
+    photo: "/en/perfiles/perfil_juanp.png",
   },
   {
     name: "Martin Pared Baez",
@@ -29,7 +29,7 @@ const arrayIntegrantes = [
     git: "https://github.com/baubyte",
     descripcion:
       "DevOps, with special focus on Backend development, databases and some Frontend, i'm the less social of the group.",
-    photo: "/en/perfiles/perfil_tincho.jpg"
+    photo: "/en/perfiles/perfil_tincho.jpg",
   },
   {
     name: "Rosana Caballero",
@@ -38,7 +38,7 @@ const arrayIntegrantes = [
     site: "https://resumes.matelab.com.ar/en/rcaballero.pdf",
     descripcion:
       "With a degree in Human Resources Administration, i'm the one who is in charge of paperwork and the accounting in the group, the one who wants everything in perfect order.",
-    photo: "/en/perfiles/perfil_ro.jpg"
+    photo: "/en/perfiles/perfil_ro.jpg",
   },
   {
     name: "Ariel Caminos",
@@ -48,11 +48,21 @@ const arrayIntegrantes = [
     git: "https://github.com/ACaminos",
     descripcion:
       "Full Stack developer with knowledgments in C, JAVA, PHP, HTML, CSS and SQL, proactive, always with a positive actitude,  wide experience dealing with costumers. The big one i called it cuca.",
-    photo: "/en/perfiles/perfil_ariel.jpg"
-  }
+    photo: "/en/perfiles/perfil_ariel.jpg",
+  },
+  {
+    name: "Marcos Orellana",
+    job: "DevOps Engineer",
+    linkedin: "https://www.linkedin.com/in/marcosorellana/",
+    site: "https://resumes.matelab.com.ar/es/morellana.pdf",
+    git: "https://github.com/mrorellana",
+    descripcion:
+      "DevOps, open source infrastructure specialist, series, Scify and action movies fan, martial artist, chess player and motorbike traveller",
+    photo: "/es/perfiles/perfil_marcos.jpg",
+  },
 ];
 
-const AboutUs = props => {
+const AboutUs = (props) => {
   return (
     <div id={props.id} className={`section ${props.classCustom}`}>
       <h2 className="titleSection">{props.title1}</h2>

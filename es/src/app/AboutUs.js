@@ -54,7 +54,7 @@ const arrayIntegrantes = [
     name: "Marcos Orellana",
     job: "DevOps Engineer",
     linkedin: "https://www.linkedin.com/in/marcosorellana/",
-    site: "https://resumes.matelab.com.ar/es/morellanagit.pdf",
+    site: "https://resumes.matelab.com.ar/es/morellana.pdf",
     git: "https://github.com/mrorellana",
     descripcion:
       "DevOps, especialista en infraestructura Open Source. Fanatico de las series/ cine Sci Fi y de accion. Artista marcial, ajedrecista y moto viajero.",
