@@ -59,7 +59,7 @@ const arrayIntegrantes = [
     descripcion:
       "DevOps, open source infrastructure specialist, series, Scify and action movies fan, martial artist, chess player and motorbike traveller",
     photo: "/es/perfiles/perfil_marcos.jpg",
-  },
+  }
 ];
 
 const AboutUs = (props) => {

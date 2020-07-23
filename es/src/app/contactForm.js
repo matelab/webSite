@@ -80,19 +80,19 @@ const ContactForm = props => {
             </a>
             &nbsp;
             <a
-              href="https://www.facebook.com/MateLab.ok/"
-              target="_blank"
-              className="waves-effect waves-light btn-floating social facebook"
-            >
-              <i className="fa fa-facebook"></i>
-            </a>
-            &nbsp;
-            <a
               href="https://www.instagram.com/matelab.ok"
               target="_blank"
               className="waves-effect waves-light btn-floating social instagram"
             >
               <i className="fa fa-instagram"></i>
+            </a>
+            &nbsp;
+            <a
+              href="https://www.facebook.com/MateLab.ok/"
+              target="_blank"
+              className="waves-effect waves-light btn-floating social facebook"
+            >
+              <i className="fa fa-facebook"></i>
             </a>
             &nbsp;
             <a
