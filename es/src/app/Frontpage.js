@@ -58,8 +58,9 @@ class Frontpage extends Component {
         <Services
           id="services"
           title1="Servicios"
-          text1="Somos creadores de soluciones tecnológicas para nuestros clientes, enfocándonos en su satisfacción junto con una rápida respuesta de manera continua, brindándoles servicios de desarrollo de Software, Soporte IT, Infraestructura, Business Inteligence y Data Science."
-          text2="Creamos soluciones a partir de tres principios fundamentales: las personas, los procesos y los productos, que nos permite generar valor agregado a las organizaciones de quienes nos eligen."
+          text1="¿Qué ofrecemos?"
+          text2="Prueba"
+          text3="Prueba"
         ></Services>
         <Organization
           id="organization"
