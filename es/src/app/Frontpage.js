@@ -59,8 +59,8 @@ class Frontpage extends Component {
           id="services"
           title1="Servicios"
           text1="¿Qué ofrecemos?"
-          text2="Prueba"
-          text3="Prueba"
+          text2="Consultoria, Automatización, Outsourcing, desarrollos de software a medida y soporte de infraestructuras."
+          text3="¿Cómo trabajamos?"
         ></Services>
         <Organization
           id="organization"
