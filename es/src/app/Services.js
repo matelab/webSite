@@ -44,6 +44,9 @@ const Services = props => {
           <p className="paragraph1"  style={{fontWeight: "bold"}}>{props.text1}</p>
           <p className="paragraph1">{props.text2}</p>
           <p className="paragraph1" style={{fontWeight: "bold"}}>{props.text3}</p>
+          <p className="paragraph1">{props.text4}</p>
+          <p className="paragraph1" style={{fontWeight: "bold"}}>{props.text5}</p>
+          <p className="paragraph1">{props.text6}</p>
         </div>
         <div className="col l6 s12">
           {arrayImg.map((index, key) => {
