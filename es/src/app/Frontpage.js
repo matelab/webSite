@@ -14,13 +14,13 @@ class Frontpage extends Component {
       name: "",
       email: "",
       query: "",
-      message: ""
+      message: "",
     };
     this.handleSubmit = this.handleSubmit.bind(this);
   }
   onChange(e) {
     this.setState({
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     });
   }
   handleSubmit(event) {
@@ -28,21 +28,21 @@ class Frontpage extends Component {
     const data = new FormData(event.target);
     fetch("https://www.matelab.com.ar/es/mailContact.php", {
       body: data,
-      method: "POST"
+      method: "POST",
     })
-      .then(response => {
+      .then((response) => {
         if (response.ok) {
           return response.text();
         }
       })
-      .then(response => {
+      .then((response) => {
         this.setState({
-          message: response
+          message: response,
         });
       })
-      .catch(error => {
+      .catch((error) => {
         this.setState({
-          message: "Ocurrió un error con MateLab por favor recarga la Web"
+          message: "Ocurrió un error con MateLab por favor recarga la Web",
         });
       });
   }
@@ -68,7 +68,7 @@ class Frontpage extends Component {
         <Organization
           id="organization"
           title1="Organización"
-          text1="Somos una cooperativa de tecnología sin jerarquías, organizada horizontalmente de forma colaborativa y participativa, donde cada persona tiene un voto y la palabra de todos tiene el mismo valor, no hay jefes, ni CEO, ni CTO, ni puestos directivos, porque la idea es trabajar de lo que nos apasiona y divertirnos creando soluciones tecnológicas a problemas desafiantes y fascinantes."
+          text1="Somos una cooperativa porque creemos profundamente que las personas tienen que poder de forma voluntaria unir esfuerzos y de forma colectiva compartir y lograr aspirciones economicas, sociales y culturales."
           text2="Matelab es un espacio de trabajo donde todos son escuchados por igual, todo se puede debatir y votar ya que lo importante para nosotros son ante todo las personas con sus diferentes maneras de pensar y por eso nuestra forma de trabajar se basa en cuatro pilares tales como la honestidad, la inclusión, la calidad humana y la excelencia técnica."
         ></Organization>
         <Aboutus id="aboutus" title1="Sobre Nosotros"></Aboutus>
