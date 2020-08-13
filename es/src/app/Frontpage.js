@@ -61,7 +61,7 @@ class Frontpage extends Component {
           text1="¿Qué ofrecemos?"
           text2="Consultoria, Automatización, Outsourcing, Desarrollos de software a medida y soporte de infraestructuras."
           text3="¿Cómo trabajamos?"
-          text4="Escuchamos para unirnos a la visión de nuestros clientes y así poder brindarles diferentes alternativas para la transformación digital que tengan como objetivo resolver los problemas con los cuáles se acercan a nosotros."
+          text4="Escuchamos para unirnos a la visión de nuestros clientes y así poder brindarles diferentes alternativas que tengan como objetivo resolver los problemas con los cuáles se acercan a nosotros."
           text5="En resumen... ¿qué hacemos?"
           text6="Resolvemos tus problemas tecnologicos y te liberamos de la carga de lidiar con ellos en tu organización."
         ></Services>
