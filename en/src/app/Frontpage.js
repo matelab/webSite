@@ -61,6 +61,7 @@ class Frontpage extends Component {
           text2="Consulting services, Automation, Outsourcing, Custom software development, infrastructure support. "
           text3="How do we work?"
           text4="We listen to our clients vision to provide them with different alternatives to solve the technological problems that they consult with us."
+          text5="Closing up... what do we do?"
         ></Services>
         <Organization
           id="organization"
