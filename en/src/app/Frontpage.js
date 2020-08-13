@@ -23,13 +23,13 @@ class Frontpage extends Component {
       [e.target.name]: e.target.value
     })
   }
-  handleSubmit(event) 
+  handleSubmit(event)
   {
     event.preventDefault();
     const data = new FormData(event.target);
     fetch('https://www.matelab.com.ar/en/mailContact.php', {
       body: data,
-      method: 'POST',     
+      method: 'POST',
     }).then(response => {
       if(response.ok) {
         return response.text()
@@ -58,7 +58,8 @@ class Frontpage extends Component {
           id="services"
           title1="Services"
           text1="What do we offer?"
-          text2="We create solutions starting from three fundamentals principles: the people, the processes and the products, all of them together allow us to add value to the organizations that choose us. "
+          text2="Consulting services, Automation, Outsourcing, Custom software development, infrastructure support. "
+          text3="How do we work?"
         ></Services>
         <Organization
           id="organization"
@@ -68,9 +69,9 @@ class Frontpage extends Component {
         ></Organization>
         <Aboutus id="aboutus" title1="About us"></Aboutus>
         <Customer id="clientes" title1="Who trusted us"></Customer>
-        <ContactForm id="contacto" title1="Contact us" contact={this.handleSubmit} 
-        nameChange={this.onChange.bind(this)} nameValue={this.state.name} 
-        emailChange={this.onChange.bind(this)} emailValue={this.state.email} 
+        <ContactForm id="contacto" title1="Contact us" contact={this.handleSubmit}
+        nameChange={this.onChange.bind(this)} nameValue={this.state.name}
+        emailChange={this.onChange.bind(this)} emailValue={this.state.email}
         queryChange={this.onChange.bind(this)} queryValue={this.state.query}
         message ={this.state.message}>
         </ContactForm>
