@@ -67,7 +67,7 @@ class Frontpage extends Component {
         <Organization
           id="organization"
           title1="Organization"
-          text1="We are a technology cooperative without hierarchies, organized horizontally in a colaborative and participative way where every person has a vote and the voice of everyone has the same value, there is no bosses, CEO or CTO because the main idea is to work doing what we are passionate about having fun creating technological solutions to challenging and fascinating problems."
+          text1="We are a technology workers cooperative because we deeply believe that people could choose to volunteer efforts to share and achieve economic, social and cultural aspirations and goals. That's the reason why we choose to build and create a democratic, shared and non hierarchical organization"
           text2="Matelab is a working space where everyone is listened in the same way and everything is open to debate and votation because the important for us is above everything else the persons with their different ways of thinking(we are free thinkers!) and because of that, our way of work is based upon four main principles like honesty, inclusion, human quality and technical excellency."
         ></Organization>
         <Aboutus id="aboutus" title1="About us"></Aboutus>
