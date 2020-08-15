@@ -8,6 +8,7 @@ const Organization = props => {
               <div className="col s12">
                 <p className="paragraph1">{props.text1}</p>
                 <p className="paragraph1">{props.text2}</p>
+                <p className="paragraph1">{props.text3}</p>
               </div>
             </div>
         </div>
