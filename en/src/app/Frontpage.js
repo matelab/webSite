@@ -69,6 +69,7 @@ class Frontpage extends Component {
           title1="Organization"
           text1="We are a technology workers cooperative because we deeply believe that people could choose to volunteer efforts to share and achieve economic, social and cultural aspirations and goals. That's the reason why we choose to build and create a democratic, shared and non hierarchical organization"
           text2="Matelab is a working space where everyone is listened in the same way and everything is open to debate and votation because the important for us is above everything else the persons with their different ways of thinking(we are free thinkers!) and because of that, our way of work is based upon four main principles like honesty, inclusion, human quality and technical excellency."
+          text3="Our main goal is to become in a powerful social transformation tool, improving our associates and community quality of life through digital transformation. "
         ></Organization>
         <Aboutus id="aboutus" title1="About us"></Aboutus>
         <Customer id="clientes" title1="Who trusted us"></Customer>
