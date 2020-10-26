@@ -61,16 +61,15 @@ class Frontpage extends Component {
           text1="¿Qué ofrecemos?"
           text2="Consultoria, Automatización, Outsourcing, Desarrollos de software a medida y soporte de infraestructuras."
           text3="¿Cómo trabajamos?"
-          text4="Escuchamos para unirnos a la visión de nuestros clientes y así poder brindarles diferentes alternativas que tengan como objetivo resolver los problemas tecnologicos con los cuáles se acercan a nosotros."
+          text4="Escuchamos para unirnos a la visión de nuestros clientes y así poder brindarles diferentes alternativas para la transformación digital que tengan como objetivo resolver los problemas con los cuáles se acercan a nosotros."
           text5="En resumen... ¿qué hacemos?"
           text6="Resolvemos tus problemas tecnologicos y te liberamos de la carga de lidiar con ellos en tu organización."
         ></Services>
         <Organization
           id="organization"
           title1="Organización"
-          text1="Somos una cooperativa porque creemos profundamente que las personas tienen que poder de forma voluntaria unir esfuerzos para compartir y lograr aspiraciones economicas, sociales y culturales. Es por eso que elegimos construir una organización que sea democrática, compartida, con una estructura horizontal y no jerárquica."
+          text1="Somos una cooperativa porque creemos profundamente que las personas tienen que poder de forma voluntaria unir esfuerzos para compartir y lograr aspiraciones economicas, sociales y culturales, por lo tanto elegimos construir una organización totalmente democratica y compartida, con una estructura horizontal, no jerarquica."
           text2="Matelab es un espacio de trabajo donde todos son escuchados por igual, todo se puede debatir y votar ya que lo importante para nosotros son ante todo las personas con sus diferentes maneras de pensar y por eso nuestra forma de trabajar se basa en cuatro pilares fundamentales tales como la honestidad, la inclusión, la calidad humana y la excelencia técnica."
-          text3="Nuestro objetivo principal es convertirnos en una poderosa herramienta de transformación social, mejorando la calidad de vida de nuestros asociados y nuestra comunidad, mediante la transformación digital."
         ></Organization>
         <Aboutus id="aboutus" title1="Sobre Nosotros"></Aboutus>
         <Customer id="clientes" title1="Confiaron en Nosotros"></Customer>
