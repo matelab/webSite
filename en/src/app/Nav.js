@@ -8,7 +8,7 @@ import {
   Col,
   Dropdown,
   Divider,
-  Icon
+  Icon,
 } from "react-materialize";
 import M from "materialize-css";
 
@@ -18,7 +18,7 @@ class Nav extends Component {
     this.state = {
       login: false,
       validar: false,
-      userName: "Inicio el estado"
+      userName: "Inicio el estado",
     };
   }
 
@@ -87,7 +87,7 @@ class Nav extends Component {
               </li>
               <li>
                 <a className="anchorLink" href="#clientes" title="clientes">
-                  Use cases
+                  Clients
                 </a>
               </li>
               <li>
