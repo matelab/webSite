@@ -13,36 +13,37 @@ class Frontpage extends Component {
       name: "",
       email: "",
       query: "",
-      message:""
+      message: "",
     };
     this.handleSubmit = this.handleSubmit.bind(this);
   }
-  onChange(e)
-  {
+  onChange(e) {
     this.setState({
-      [e.target.name]: e.target.value
-    })
+      [e.target.name]: e.target.value,
+    });
   }
-  handleSubmit(event) 
-  {
+  handleSubmit(event) {
     event.preventDefault();
     const data = new FormData(event.target);
-    fetch('https://www.matelab.com.ar/en/mailContact.php', {
+    fetch("https://www.matelab.com.ar/en/mailContact.php", {
       body: data,
-      method: 'POST',     
-    }).then(response => {
-      if(response.ok) {
-        return response.text()
-      }
-    }).then(response => {
-      this.setState({
-        message:response
-      })
-   }).catch(error =>{
-        this.setState({
-          message:"Ocurrió un error con MeteLab por favor Recarga la Web"
-        })
+      method: "POST",
     })
+      .then((response) => {
+        if (response.ok) {
+          return response.text();
+        }
+      })
+      .then((response) => {
+        this.setState({
+          message: response,
+        });
+      })
+      .catch((error) => {
+        this.setState({
+          message: "Ocurrió un error con MeteLab por favor Recarga la Web",
+        });
+      });
   }
 
   render() {
@@ -57,8 +58,12 @@ class Frontpage extends Component {
         <Services
           id="services"
           title1="Services"
-          text1="We are creators of technological solutions for our clients, making special focus in their satisfaction with a fast and continuous response, providing them with software development, IT support, Infrastructure, BI and Data Science services."
-          text2="We create solutions starting from three fundamentals principles: the people, the processes and the products, all of them together allow us to add value to the organizations that choose us. "
+          text1="What do we offer?"
+          text2="Consulting, Automatización, Outsourcing, Custom Software Development and Infrastructure Support."
+          text3="How is our workflow?"
+          text4="Escuchamos para unirnos a la visión de nuestros clientes y así poder brindarles diferentes alternativas para la transformación digital que tengan como objetivo resolver los problemas con los cuáles se acercan a nosotros."
+          text5="En resumen... ¿qué hacemos?"
+          text6="Resolvemos tus problemas tecnologicos y te liberamos de la carga de lidiar con ellos en tu organización."
         ></Services>
         <Organization
           id="organization"
@@ -68,12 +73,18 @@ class Frontpage extends Component {
         ></Organization>
         <Aboutus id="aboutus" title1="About us"></Aboutus>
         <Customer id="clientes" title1="Who trusted us"></Customer>
-        <ContactForm id="contacto" title1="Contact us" contact={this.handleSubmit} 
-        nameChange={this.onChange.bind(this)} nameValue={this.state.name} 
-        emailChange={this.onChange.bind(this)} emailValue={this.state.email} 
-        queryChange={this.onChange.bind(this)} queryValue={this.state.query}
-        message ={this.state.message}>
-        </ContactForm>
+        <ContactForm
+          id="contacto"
+          title1="Contact us"
+          contact={this.handleSubmit}
+          nameChange={this.onChange.bind(this)}
+          nameValue={this.state.name}
+          emailChange={this.onChange.bind(this)}
+          emailValue={this.state.email}
+          queryChange={this.onChange.bind(this)}
+          queryValue={this.state.query}
+          message={this.state.message}
+        ></ContactForm>
       </div>
     );
   }
