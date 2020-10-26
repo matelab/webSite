@@ -32,17 +32,27 @@ const arrayImg = [
   "tomcat.png",
   "docker.svg",
   "kubernetes.svg",
-  "vmware.svg"
+  "vmware.svg",
 ];
 
-const Services = props => {
+const Services = (props) => {
   return (
     <div id={props.id} className={`section ${props.classCustom}`}>
       <h2 className="titleSection">{props.title1}</h2>
       <div className="row">
         <div className="col l6 s12">
-          <p className="paragraph1">{props.text1}</p>
+          <p className="paragraph1" style={{ fontWeight: "bold" }}>
+            {props.text1}
+          </p>
           <p className="paragraph1">{props.text2}</p>
+          <p className="paragraph1" style={{ fontWeight: "bold" }}>
+            {props.text3}
+          </p>
+          <p className="paragraph1">{props.text4}</p>
+          <p className="paragraph1" style={{ fontWeight: "bold" }}>
+            {props.text5}
+          </p>
+          <p className="paragraph1">{props.text6}</p>
         </div>
         <div className="col l6 s12">
           {arrayImg.map((index, key) => {
