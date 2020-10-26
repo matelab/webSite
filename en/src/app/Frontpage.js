@@ -69,7 +69,7 @@ class Frontpage extends Component {
           id="organization"
           title1="Organization"
           text1="We are a workers cooperative because we believe that the people have to be able to voluntarily join efforts and achieve ecominical, social and cultural aspirations, so we choose to build a totally democratic and shared organization with a non-hierarchical horizontal structure."
-          text2="Matelab is a working space where everyone is listened in the same way and everything is open to debate and votation because the important for us is above everything else the persons with their different ways of thinking(we are free thinkers!) and because of that, our way of work is based upon four main principles like honesty, inclusion, human quality and technical excellency."
+          text2="Matelab is a workspace where everyone listen to each other as equals, everything is open for debate(doesn't mean that hate speach is able at all) and vote because for us the most important is the people with their different ways of thinking and because of that our work ethic is based on four fundamental principles... honesty, inclusion, human quality and technical excelence."
         ></Organization>
         <Aboutus id="aboutus" title1="About us"></Aboutus>
         <Customer id="clientes" title1="Who trusted us"></Customer>
