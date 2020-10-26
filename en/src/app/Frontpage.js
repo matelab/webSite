@@ -23,13 +23,13 @@ class Frontpage extends Component {
       [e.target.name]: e.target.value
     })
   }
-  handleSubmit(event)
+  handleSubmit(event) 
   {
     event.preventDefault();
     const data = new FormData(event.target);
     fetch('https://www.matelab.com.ar/en/mailContact.php', {
       body: data,
-      method: 'POST',
+      method: 'POST',     
     }).then(response => {
       if(response.ok) {
         return response.text()
@@ -57,25 +57,20 @@ class Frontpage extends Component {
         <Services
           id="services"
           title1="Services"
-          text1="What do we offer?"
-          text2="Consulting services, Automation, Outsourcing, Custom software development, infrastructure support. "
-          text3="How do we work?"
-          text4="We listen to our clients vision to provide them with different alternatives to solve the technological problems that they consult with us."
-          text5="Closing up... what do we do?"
-          text6="We solve your technological problems and free your organization up of the burden of solving them."
+          text1="We are creators of technological solutions for our clients, making special focus in their satisfaction with a fast and continuous response, providing them with software development, IT support, Infrastructure, BI and Data Science services."
+          text2="We create solutions starting from three fundamentals principles: the people, the processes and the products, all of them together allow us to add value to the organizations that choose us. "
         ></Services>
         <Organization
           id="organization"
           title1="Organization"
-          text1="We are a technology workers cooperative because we deeply believe that people could choose to volunteer efforts to share and achieve economic, social and cultural aspirations and goals. That's the reason why we choose to build and create a democratic, shared and non hierarchical organization"
+          text1="We are a technology cooperative without hierarchies, organized horizontally in a colaborative and participative way where every person has a vote and the voice of everyone has the same value, there is no bosses, CEO or CTO because the main idea is to work doing what we are passionate about having fun creating technological solutions to challenging and fascinating problems."
           text2="Matelab is a working space where everyone is listened in the same way and everything is open to debate and votation because the important for us is above everything else the persons with their different ways of thinking(we are free thinkers!) and because of that, our way of work is based upon four main principles like honesty, inclusion, human quality and technical excellency."
-          text3="Our main goal is to become in a powerful social transformation tool, improving our associates and community quality of life through digital transformation. "
         ></Organization>
         <Aboutus id="aboutus" title1="About us"></Aboutus>
         <Customer id="clientes" title1="Who trusted us"></Customer>
-        <ContactForm id="contacto" title1="Contact us" contact={this.handleSubmit}
-        nameChange={this.onChange.bind(this)} nameValue={this.state.name}
-        emailChange={this.onChange.bind(this)} emailValue={this.state.email}
+        <ContactForm id="contacto" title1="Contact us" contact={this.handleSubmit} 
+        nameChange={this.onChange.bind(this)} nameValue={this.state.name} 
+        emailChange={this.onChange.bind(this)} emailValue={this.state.email} 
         queryChange={this.onChange.bind(this)} queryValue={this.state.query}
         message ={this.state.message}>
         </ContactForm>
