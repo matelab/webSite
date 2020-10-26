@@ -61,14 +61,14 @@ class Frontpage extends Component {
           text1="What do we offer?"
           text2="Consulting, Automatización, Outsourcing, Custom Software Development and Infrastructure Support."
           text3="How is our workflow?"
-          text4="Escuchamos para unirnos a la visión de nuestros clientes y así poder brindarles diferentes alternativas para la transformación digital que tengan como objetivo resolver los problemas con los cuáles se acercan a nosotros."
-          text5="En resumen... ¿qué hacemos?"
-          text6="Resolvemos tus problemas tecnologicos y te liberamos de la carga de lidiar con ellos en tu organización."
+          text4="We listen to our clients to bring them a set of alternative solutions while adding value helping them achive a complete and seamless digital transformation."
+          text5="Closing up... what do we do?"
+          text6="We solve your organization technological problems while freeing you of even thinking about it."
         ></Services>
         <Organization
           id="organization"
           title1="Organization"
-          text1="We are a technology cooperative without hierarchies, organized horizontally in a colaborative and participative way where every person has a vote and the voice of everyone has the same value, there is no bosses, CEO or CTO because the main idea is to work doing what we are passionate about having fun creating technological solutions to challenging and fascinating problems."
+          text1="We are a workers cooperative because we believe that the people have to be able to voluntarily join efforts and achieve ecominical, social and cultural aspirations, so we choose to build a totally democratic and shared organization with a non-hierarchical horizontal structure."
           text2="Matelab is a working space where everyone is listened in the same way and everything is open to debate and votation because the important for us is above everything else the persons with their different ways of thinking(we are free thinkers!) and because of that, our way of work is based upon four main principles like honesty, inclusion, human quality and technical excellency."
         ></Organization>
         <Aboutus id="aboutus" title1="About us"></Aboutus>
