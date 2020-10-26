@@ -51,15 +51,15 @@ const arrayIntegrantes = [
     photo: "/en/perfiles/perfil_ariel.jpg",
   },
   {
-    name: "Marcos Orellana",
-    job: "DevOps Engineer",
-    linkedin: "https://www.linkedin.com/in/marcosorellana/",
-    site: "https://resumes.matelab.com.ar/es/morellana.pdf",
-    git: "https://github.com/mrorellana",
+    name: "Jessica Medina",
+    job: "Graphical Designer - UX/UI Specialist",
+    linkedin: "https://www.linkedin.com/in/jessica-stefania-medina-aba5441b9/",
+    site: "https://resumes.matelab.com.ar/es/jmedina.pdf",
+    git: "https://github.com/matelab",
     descripcion:
-      "DevOps, open source infrastructure specialist, series, Scify and action movies fan, martial artist, chess player and motorbike traveller",
-    photo: "/es/perfiles/perfil_marcos.jpg",
-  }
+      "I'm Jessica stefania Medina, Design student in FADU, I took a Graphical Design course in IAC, I have a master in UX and UI =)",
+    photo: "/en/perfiles/perfil_jessi.jpg",
+  },
 ];
 
 const AboutUs = (props) => {
