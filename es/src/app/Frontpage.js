@@ -69,7 +69,7 @@ class Frontpage extends Component {
           id="organization"
           title1="Organización"
           text1="Somos una cooperativa porque creemos profundamente que las personas tienen que poder de forma voluntaria unir esfuerzos para compartir y lograr aspiraciones economicas, sociales y culturales, por lo tanto elegimos construir una organización totalmente democratica y compartida, con una estructura horizontal, no jerarquica."
-          text2="Matelab es un espacio de trabajo donde todos son escuchados por igual, todo se puede debatir y votar ya que lo importante para nosotros son ante todo las personas con sus diferentes maneras de pensar y por eso nuestra forma de trabajar se basa en cuatro pilares fundamentales tales como la honestidad, la inclusión, la calidad humana y la excelencia técnica."
+          text2="Matelab es un espacio de trabajo donde todos son escuchados por igual(esto no habilita de ninguna manera, discursos de odio), todo se puede debatir y votar ya que lo importante para nosotros son ante todo las personas con sus diferentes maneras de pensar y por eso nuestra forma de trabajar se basa en cuatro principios fundamentales tales como la honestidad, la inclusión, la calidad humana y la excelencia técnica."
         ></Organization>
         <Aboutus id="aboutus" title1="Sobre Nosotros"></Aboutus>
         <Customer id="clientes" title1="Confiaron en Nosotros"></Customer>
