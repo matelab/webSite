@@ -22,16 +22,6 @@ const arrayIntegrantes = [
     photo: "/es/perfiles/perfil_juanp.png",
   },
   {
-    name: "Martin Pared Baez",
-    job: "DevOps Engineer",
-    site: "https://resumes.matelab.com.ar/es/mparedbaez.pdf",
-    linkedin: "https://www.linkedin.com/in/mparedbaez/",
-    git: "https://github.com/baubyte",
-    descripcion:
-      "DevOps, especializado en BackEnd, base de datos y algo de FrontEnd, el menos sociable del grupo.",
-    photo: "/es/perfiles/perfil_tincho.jpg",
-  },
-  {
     name: "Rosana Caballero",
     job: "Ref. Gestion",
     site: "https://resumes.matelab.com.ar/es/rcaballero.pdf",
@@ -58,6 +48,16 @@ const arrayIntegrantes = [
     git: "https://github.com/matelab",
     descripcion:
       "Soy Jessica stefania Medina, estudiante de diseño de indumentaria en la FADU, realice un curso de diseño gráfico en el IAC, un master de UX, y estudie fotografía en Motivarte",
+    photo: "/es/perfiles/perfil_jessi.jpg",
+  },
+  {
+    name: "Emanuel Diaz",
+    job: "Desarrollador Full Stack",
+    linkedin: "https://www.linkedin.com/in/emanueld%C3%ADaz-13/",
+    site: "https://resumes.matelab.com.ar/es/ediaz.pdf",
+    git: "https://github.com/ediaz13",
+    descripcion:
+      "",
     photo: "/es/perfiles/perfil_jessi.jpg",
   },
 ];
