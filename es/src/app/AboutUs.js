@@ -58,7 +58,7 @@ const arrayIntegrantes = [
     git: "https://github.com/ediaz13",
     descripcion:
       "",
-    photo: "/es/perfiles/perfil_jessi.jpg",
+    photo: "/es/perfiles/perfil_ediaz.jpg",
   },
 ];
 
