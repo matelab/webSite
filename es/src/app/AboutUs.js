@@ -13,7 +13,7 @@ const arrayIntegrantes = [
   },
   {
     name: "Juan Romano",
-    job: "DevOps Engineer",
+    job: "Arquitecto de Software",
     linkedin: "https://www.linkedin.com/in/jupromano/",
     site: "http://jpromano.net",
     git: "https://www.github.com/jpromanonet",
@@ -32,7 +32,7 @@ const arrayIntegrantes = [
   },
   {
     name: "Ariel Caminos",
-    job: "Full Stack Dev",
+    job: "Desarrollador Front-End",
     linkedin: "https://www.linkedin.com/in/ariel-caminos-3b187863/",
     site: "https://resumes.matelab.com.ar/es/acaminos.pdf",
     git: "https://github.com/ACaminos",
@@ -59,6 +59,17 @@ const arrayIntegrantes = [
     descripcion:
       "",
     photo: "/es/perfiles/perfil_ediaz.jpg",
+  },
+
+  {
+    name: "Juan Pablo Cesarini",
+    job: "Desarrollador Full Stack",
+    linkedin: "https://www.linkedin.com/in/emanueld%C3%ADaz-13/",
+    site: "https://resumes.matelab.com.ar/es/jcesarini.pdf",
+    git: "https://github.com/",
+    descripcion:
+      "",
+    photo: "/es/perfiles/perfil_jcesarini.jpg",
   },
 ];
 
