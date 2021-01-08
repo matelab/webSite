@@ -82,13 +82,13 @@ const arrayIntegrantes = [
   },
   {
     name: "Ignacio Pedraza",
-    job: "Desarrollador Front-End",
+    job: "Front End Developer",
     linkedin: "https://www.linkedin.com/in/emanueld%C3%ADaz-13/",
     site: "https://resumes.matelab.com.ar/es/ipedraza.pdf",
     git: "https://github.com/",
     descripcion:
       "",
-    photo: "/es/perfiles/perfil_ipedraza.jpg",
+    photo: "/en/perfiles/perfil_ipedraza.jpg",
   },
 ];
 
