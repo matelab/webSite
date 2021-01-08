@@ -22,16 +22,6 @@ const arrayIntegrantes = [
     photo: "/en/perfiles/perfil_juanp.png",
   },
   {
-    name: "Martin Pared Baez",
-    job: "DevOps",
-    linkedin: "https://www.linkedin.com/in/mparedbaez/",
-    site: "https://resumes.matelab.com.ar/en/mparedbaez.pdf",
-    git: "https://github.com/baubyte",
-    descripcion:
-      "DevOps, with special focus on Backend development, databases and some Frontend, i'm the less social of the group.",
-    photo: "/en/perfiles/perfil_tincho.jpg",
-  },
-  {
     name: "Rosana Caballero",
     job: "Office Administrator",
     linkedin: "https://www.linkedin.com/in/rosanacaballero/",
