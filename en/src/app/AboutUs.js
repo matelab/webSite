@@ -78,7 +78,7 @@ const arrayIntegrantes = [
     git: "https://github.com/",
     descripcion:
       "",
-    photo: "/es/perfiles/perfil_rreyna.jpg",
+    photo: "/en/perfiles/perfil_rreyna.jpg",
   },
   {
     name: "Ignacio Pedraza",
