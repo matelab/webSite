@@ -50,6 +50,46 @@ const arrayIntegrantes = [
       "I'm Jessica stefania Medina, Design student in FADU, I took a Graphical Design course in IAC, I have a master in UX and UI =)",
     photo: "/en/perfiles/perfil_jessi.jpg",
   },
+  {
+    name: "Emanuel Diaz",
+    job: "Desarrollador Full Stack",
+    linkedin: "https://www.linkedin.com/in/emanueld%C3%ADaz-13/",
+    site: "https://resumes.matelab.com.ar/es/ediaz.pdf",
+    git: "https://github.com/ediaz13",
+    descripcion:
+      "",
+    photo: "/es/perfiles/perfil_ediaz.jpg",
+  },
+  {
+    name: "Juan Pablo Cesarini",
+    job: "Desarrollador Full Stack",
+    linkedin: "https://www.linkedin.com/in/emanueld%C3%ADaz-13/",
+    site: "https://resumes.matelab.com.ar/es/jcesarini.pdf",
+    git: "https://github.com/",
+    descripcion:
+      "",
+    photo: "/es/perfiles/perfil_jcesarini.jpg",
+  },
+  {
+    name: "Ramiro Reyna",
+    job: "Scrum Master",
+    linkedin: "https://www.linkedin.com/in/emanueld%C3%ADaz-13/",
+    site: "https://resumes.matelab.com.ar/es/rreyna.pdf",
+    git: "https://github.com/",
+    descripcion:
+      "",
+    photo: "/es/perfiles/perfil_rreyna.jpg",
+  },
+  {
+    name: "Ignacio Pedraza",
+    job: "Desarrollador Front-End",
+    linkedin: "https://www.linkedin.com/in/emanueld%C3%ADaz-13/",
+    site: "https://resumes.matelab.com.ar/es/ipedraza.pdf",
+    git: "https://github.com/",
+    descripcion:
+      "",
+    photo: "/es/perfiles/perfil_ipedraza.jpg",
+  },
 ];
 
 const AboutUs = (props) => {
