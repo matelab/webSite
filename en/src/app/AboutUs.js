@@ -3,7 +3,7 @@ import React from "react";
 const arrayIntegrantes = [
   {
     name: "Gabriel Lombardo",
-    job: "Front End Dev",
+    job: "Front End Developer",
     linkedin: "https://www.linkedin.com/in/gabriel-dario-lombardo-1531b125/",
     site: "https://resumes.matelab.com.ar/en/glombardo.pdf",
     git: "https://github.com/gaby1986",
@@ -32,7 +32,7 @@ const arrayIntegrantes = [
   },
   {
     name: "Ariel Caminos",
-    job: "Full Stack Dev",
+    job: "Front End Developer",
     linkedin: "https://www.linkedin.com/in/ariel-caminos-3b187863/",
     site: "https://resumes.matelab.com.ar/en/acaminos.pdf",
     git: "https://github.com/ACaminos",
