@@ -13,7 +13,7 @@ const arrayIntegrantes = [
   },
   {
     name: "Juan Romano",
-    job: "DevOps",
+    job: "Software Architect",
     linkedin: "https://www.linkedin.com/in/jupromano/",
     site: "http://jpromano.net",
     git: "https://www.github.com/jpromanonet",
