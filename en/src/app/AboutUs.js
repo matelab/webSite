@@ -62,13 +62,13 @@ const arrayIntegrantes = [
   },
   {
     name: "Juan Pablo Cesarini",
-    job: "Desarrollador Full Stack",
+    job: "Full Stack Developer",
     linkedin: "https://www.linkedin.com/in/emanueld%C3%ADaz-13/",
     site: "https://resumes.matelab.com.ar/es/jcesarini.pdf",
     git: "https://github.com/",
     descripcion:
       "",
-    photo: "/es/perfiles/perfil_jcesarini.jpg",
+    photo: "/en/perfiles/perfil_jcesarini.jpg",
   },
   {
     name: "Ramiro Reyna",
