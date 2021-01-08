@@ -52,13 +52,13 @@ const arrayIntegrantes = [
   },
   {
     name: "Emanuel Diaz",
-    job: "Desarrollador Full Stack",
+    job: "Full Stack Developer",
     linkedin: "https://www.linkedin.com/in/emanueld%C3%ADaz-13/",
     site: "https://resumes.matelab.com.ar/es/ediaz.pdf",
     git: "https://github.com/ediaz13",
     descripcion:
       "",
-    photo: "/es/perfiles/perfil_ediaz.jpg",
+    photo: "/en/perfiles/perfil_ediaz.jpg",
   },
   {
     name: "Juan Pablo Cesarini",
