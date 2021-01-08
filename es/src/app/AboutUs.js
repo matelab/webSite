@@ -3,7 +3,7 @@ import React from "react";
 const arrayIntegrantes = [
   {
     name: "Gabriel Lombardo",
-    job: "Front End Dev",
+    job: "Desarrollador Front End",
     linkedin: "https://www.linkedin.com/in/gabriel-dario-lombardo-1531b125/",
     site: "https://resumes.matelab.com.ar/es/glombardo.pdf",
     git: "https://github.com/gaby1986",
