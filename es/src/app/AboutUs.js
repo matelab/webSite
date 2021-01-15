@@ -63,7 +63,7 @@ const arrayIntegrantes = [
   {
     name: "Ramiro Reyna",
     job: "Scrum Master",
-    linkedin: "https://www.linkedin.com/in/emanueld%C3%ADaz-13/",
+    linkedin: "https://www.linkedin.com/in/ramiroreyna/",
     site: "https://resumes.matelab.com.ar/es/rreyna.pdf",
     git: "https://github.com/",
     descripcion:
@@ -73,9 +73,9 @@ const arrayIntegrantes = [
   {
     name: "Ignacio Pedraza",
     job: "Desarrollador Front-End",
-    linkedin: "https://www.linkedin.com/in/emanueld%C3%ADaz-13/",
+    linkedin: "",
     site: "https://resumes.matelab.com.ar/es/ipedraza.pdf",
-    git: "https://github.com/",
+    git: "https://github.com/nachoijp",
     descripcion:
       "",
     photo: "/es/perfiles/perfil_ipedraza.jpg",
