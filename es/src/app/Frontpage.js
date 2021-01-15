@@ -42,7 +42,7 @@ class Frontpage extends Component {
       })
       .catch((error) => {
         this.setState({
-          message: "Ocurrió un error con MateLab por favor recarga la Web",
+          message: "Ocurrió un error con MateLab por favor recarga la web, presionando F5",
         });
       });
   }
