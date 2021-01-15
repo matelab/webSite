@@ -51,44 +51,34 @@ const arrayIntegrantes = [
     photo: "/en/perfiles/perfil_jessi.jpg",
   },
   {
-    name: "Emanuel Diaz",
-    job: "Full Stack Developer",
-    linkedin: "https://www.linkedin.com/in/emanueld%C3%ADaz-13/",
-    site: "https://resumes.matelab.com.ar/es/ediaz.pdf",
-    git: "https://github.com/ediaz13",
-    descripcion:
-      "",
-    photo: "/en/perfiles/perfil_ediaz.jpg",
-  },
-  {
     name: "Juan Pablo Cesarini",
     job: "Full Stack Developer",
     linkedin: "https://www.linkedin.com/in/emanueld%C3%ADaz-13/",
     site: "https://resumes.matelab.com.ar/es/jcesarini.pdf",
     git: "https://github.com/",
     descripcion:
-      "",
-    photo: "/en/perfiles/perfil_jcesarini.jpg",
+        "",
+    photo: "/es/perfiles/perfil_jcesarini.jpg",
   },
   {
     name: "Ramiro Reyna",
     job: "Scrum Master",
-    linkedin: "https://www.linkedin.com/in/emanueld%C3%ADaz-13/",
+    linkedin: "https://www.linkedin.com/in/ramiroreyna/",
     site: "https://resumes.matelab.com.ar/es/rreyna.pdf",
     git: "https://github.com/",
     descripcion:
-      "",
-    photo: "/en/perfiles/perfil_rreyna.jpg",
+        "",
+    photo: "/es/perfiles/perfil_rreyna.jpg",
   },
   {
     name: "Ignacio Pedraza",
-    job: "Front End Developer",
-    linkedin: "https://www.linkedin.com/in/emanueld%C3%ADaz-13/",
+    job: "Front-End Developer",
+    linkedin: "",
     site: "https://resumes.matelab.com.ar/es/ipedraza.pdf",
-    git: "https://github.com/",
+    git: "https://github.com/nachoijp",
     descripcion:
-      "",
-    photo: "/en/perfiles/perfil_ipedraza.jpg",
+        "",
+    photo: "/es/perfiles/perfil_ipedraza.jpg",
   },
 ];
 
