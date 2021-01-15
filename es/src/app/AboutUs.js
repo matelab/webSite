@@ -53,7 +53,7 @@ const arrayIntegrantes = [
   {
     name: "Juan Pablo Cesarini",
     job: "Desarrollador Full Stack",
-    linkedin: "https://www.linkedin.com/in/emanueld%C3%ADaz-13/",
+    linkedin: "https://www.linkedin.com/in/juan-pablo-cesarini-695564164/",
     site: "https://resumes.matelab.com.ar/es/jcesarini.pdf",
     git: "https://github.com/",
     descripcion:
