@@ -57,7 +57,7 @@ const arrayIntegrantes = [
     site: "https://resumes.matelab.com.ar/es/jcesarini.pdf",
     git: "https://github.com/",
     descripcion:
-      "Analista de Sistemas - Desarrollador Full Stack. Aportando mi granito de arena para construir un mundo más diverso y sin prejuicios",
+      "Analista de Sistemas - Desarrollador Full Stack, Aportando mi granito de arena para construir un mundo más diverso y sin prejuicios",
     photo: "/es/perfiles/perfil_jcesarini.jpg",
   },
   {
