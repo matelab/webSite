@@ -3,7 +3,7 @@ import React from "react";
 const arrayIntegrantes = [
   {
     name: "Gabriel Lombardo",
-    job: "Front End Dev",
+    job: "Front End Developer",
     linkedin: "https://www.linkedin.com/in/gabriel-dario-lombardo-1531b125/",
     site: "https://resumes.matelab.com.ar/en/glombardo.pdf",
     git: "https://github.com/gaby1986",
@@ -13,23 +13,13 @@ const arrayIntegrantes = [
   },
   {
     name: "Juan Romano",
-    job: "DevOps",
+    job: "Software Architect",
     linkedin: "https://www.linkedin.com/in/jupromano/",
     site: "http://jpromano.net",
     git: "https://www.github.com/jpromanonet",
     descripcion:
       "Mathematician and programmer, I program, design and solve architecture problems also i'm always making experiments with new technologies, i'm always drinking mate(?).",
     photo: "/en/perfiles/perfil_juanp.png",
-  },
-  {
-    name: "Martin Pared Baez",
-    job: "DevOps",
-    linkedin: "https://www.linkedin.com/in/mparedbaez/",
-    site: "https://resumes.matelab.com.ar/en/mparedbaez.pdf",
-    git: "https://github.com/baubyte",
-    descripcion:
-      "DevOps, with special focus on Backend development, databases and some Frontend, i'm the less social of the group.",
-    photo: "/en/perfiles/perfil_tincho.jpg",
   },
   {
     name: "Rosana Caballero",
@@ -42,7 +32,7 @@ const arrayIntegrantes = [
   },
   {
     name: "Ariel Caminos",
-    job: "Full Stack Dev",
+    job: "Front End Developer",
     linkedin: "https://www.linkedin.com/in/ariel-caminos-3b187863/",
     site: "https://resumes.matelab.com.ar/en/acaminos.pdf",
     git: "https://github.com/ACaminos",
@@ -59,6 +49,36 @@ const arrayIntegrantes = [
     descripcion:
       "I'm Jessica stefania Medina, Design student in FADU, I took a Graphical Design course in IAC, I have a master in UX and UI =)",
     photo: "/en/perfiles/perfil_jessi.jpg",
+  },
+  {
+    name: "Juan Pablo Cesarini",
+    job: "Full Stack Developer",
+    linkedin: "https://www.linkedin.com/in/emanueld%C3%ADaz-13/",
+    site: "https://resumes.matelab.com.ar/es/jcesarini.pdf",
+    git: "https://github.com/",
+    descripcion:
+        "",
+    photo: "/es/perfiles/perfil_jcesarini.jpg",
+  },
+  {
+    name: "Ramiro Reyna",
+    job: "Scrum Master",
+    linkedin: "https://www.linkedin.com/in/ramiroreyna/",
+    site: "https://resumes.matelab.com.ar/es/rreyna.pdf",
+    git: "https://github.com/",
+    descripcion:
+        "",
+    photo: "/es/perfiles/perfil_rreyna.jpg",
+  },
+  {
+    name: "Ignacio Pedraza",
+    job: "Front-End Developer",
+    linkedin: "",
+    site: "https://resumes.matelab.com.ar/es/ipedraza.pdf",
+    git: "https://github.com/nachoijp",
+    descripcion:
+        "",
+    photo: "/es/perfiles/perfil_ipedraza.jpg",
   },
 ];
 
