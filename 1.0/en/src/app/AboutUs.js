@@ -52,7 +52,7 @@ const arrayIntegrantes = [
     photo: "/en/perfiles/perfil_jpc.jpg",
   },
   {
-    name: "Francisco Chardini",
+    name: "Francisco Chardin",
     job: "Front End Developer",
     linkedin: "https://www.linkedin.com/in/francisco-chardin-a7a44479/",
     site: "https://resumes.matelab.com.ar/es/fchardin.pdf",
