@@ -18,17 +18,8 @@ const arrayIntegrantes = [
     site: "http://jpromano.net",
     git: "https://www.github.com/jpromanonet",
     descripcion:
-      "Mathematician and programmer, I program, design and solve architecture problems also i'm always making experiments with new technologies, i'm always drinking mate(?).",
+      "Mathematician and programmer, I program, design and solve architecture problems(sometimes I create the problems too) also I'm always making experiments with new technologies, always drinking mate(?).",
     photo: "/en/perfiles/perfil_juanp.png",
-  },
-  {
-    name: "Rosana Caballero",
-    job: "Office Administrator",
-    linkedin: "https://www.linkedin.com/in/rosanacaballero/",
-    site: "https://resumes.matelab.com.ar/en/rcaballero.pdf",
-    descripcion:
-      "With a degree in Human Resources Administration, i'm the one who is in charge of paperwork and the accounting in the group, the one who wants everything in perfect order.",
-    photo: "/en/perfiles/perfil_ro.jpg",
   },
   {
     name: "Ariel Caminos",
@@ -42,7 +33,7 @@ const arrayIntegrantes = [
   },
   {
     name: "Jessica Medina",
-    job: "Graphical Designer - UX/UI Specialist",
+    job: "Community Manager & Designer",
     linkedin: "https://www.linkedin.com/in/jessica-stefania-medina-aba5441b9/",
     site: "https://resumes.matelab.com.ar/es/jmedina.pdf",
     git: "https://github.com/matelab",
@@ -53,32 +44,20 @@ const arrayIntegrantes = [
   {
     name: "Juan Pablo Cesarini",
     job: "Full Stack Developer",
-    linkedin: "https://www.linkedin.com/in/emanueld%C3%ADaz-13/",
+    linkedin: "https://www.linkedin.com/in/juan-pablo-cesarini-695564164/",
     site: "https://resumes.matelab.com.ar/es/jcesarini.pdf",
     git: "https://github.com/",
-    descripcion:
-        "",
-    photo: "/es/perfiles/perfil_jcesarini.jpg",
+    descripcion: "",
+    photo: "/es/perfiles/perfil_jpc.jpg",
   },
   {
-    name: "Ramiro Reyna",
-    job: "Scrum Master",
-    linkedin: "https://www.linkedin.com/in/ramiroreyna/",
-    site: "https://resumes.matelab.com.ar/es/rreyna.pdf",
+    name: "Francisco Gabriel Chardini",
+    job: "Full Stack Developer",
+    linkedin: "https://www.linkedin.com/in/juan-pablo-cesarini-695564164/",
+    site: "https://resumes.matelab.com.ar/es/jcesarini.pdf",
     git: "https://github.com/",
-    descripcion:
-        "",
-    photo: "/es/perfiles/perfil_rreyna.jpg",
-  },
-  {
-    name: "Ignacio Pedraza",
-    job: "Front-End Developer",
-    linkedin: "",
-    site: "https://resumes.matelab.com.ar/es/ipedraza.pdf",
-    git: "https://github.com/nachoijp",
-    descripcion:
-        "",
-    photo: "/es/perfiles/perfil_ipedraza.jpg",
+    descripcion: "",
+    photo: "/es/perfiles/perfil_jpc.jpg",
   },
 ];
 
