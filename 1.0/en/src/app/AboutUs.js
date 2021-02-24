@@ -3,7 +3,7 @@ import React from "react";
 const arrayIntegrantes = [
   {
     name: "Gabriel Lombardo",
-    job: "Front End Developer",
+    job: "Full Stack Developer",
     linkedin: "https://www.linkedin.com/in/gabriel-dario-lombardo-1531b125/",
     site: "https://resumes.matelab.com.ar/en/glombardo.pdf",
     git: "https://github.com/gaby1986",
@@ -49,16 +49,25 @@ const arrayIntegrantes = [
     git: "https://github.com/",
     descripcion:
       "Full Stack Developer with knowledgments in C#, Python, Java, SQL, HTML, CSS and mostly a PHP fan, I’m a very proactive person with an open mind who likes to learn everyday about diversity.",
-    photo: "/es/perfiles/perfil_jpc.jpg",
+    photo: "/en/perfiles/perfil_jpc.jpg",
   },
   {
     name: "Francisco Gabriel Chardini",
-    job: "Full Stack Developer",
+    job: "Front End Developer",
     linkedin: "https://www.linkedin.com/in/juan-pablo-cesarini-695564164/",
-    site: "https://resumes.matelab.com.ar/es/jcesarini.pdf",
+    site: "https://resumes.matelab.com.ar/es/fchardin.pdf",
     git: "https://github.com/",
     descripcion: "",
-    photo: "/es/perfiles/perfil_jpc.jpg",
+    photo: "/en/perfiles/perfil_jpc.jpg",
+  },
+  {
+    name: "Luciana Enir Farjat",
+    job: "Sales Executive & Office Manager",
+    linkedin: "https://www.linkedin.com/in/juan-pablo-cesarini-695564164/",
+    site: "https://resumes.matelab.com.ar/es/lfarjat.pdf",
+    git: "https://github.com/",
+    descripcion: "",
+    photo: "/en/perfiles/perfil_luciana.jpg",
   },
 ];
 
