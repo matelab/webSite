@@ -47,7 +47,8 @@ const arrayIntegrantes = [
     linkedin: "https://www.linkedin.com/in/juan-pablo-cesarini-695564164/",
     site: "https://resumes.matelab.com.ar/es/jcesarini.pdf",
     git: "https://github.com/",
-    descripcion: "",
+    descripcion:
+      "Full Stack Developer with knowledgments in C#, Python, Java, SQL, HTML, CSS and mostly a PHP fan, I’m a very proactive person with an open mind who likes to learn everyday about diversity.",
     photo: "/es/perfiles/perfil_jpc.jpg",
   },
   {
