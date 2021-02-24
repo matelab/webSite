@@ -63,9 +63,9 @@ const arrayIntegrantes = [
   {
     name: "Luciana Farjat",
     job: "Sales Executive & Office Manager",
-    linkedin: "https://www.linkedin.com/in/juan-pablo-cesarini-695564164/",
+    linkedin: "https://www.linkedin.com/in/luciana-farjat-0372b0207/",
     site: "https://resumes.matelab.com.ar/es/lfarjat.pdf",
-    git: "https://github.com/",
+    git: "https://github.com/luperta",
     descripcion: "",
     photo: "/en/perfiles/perfil_luciana.jpg",
   },
