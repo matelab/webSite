@@ -72,7 +72,7 @@ class Frontpage extends Component {
           text2="Matelab is a workspace where everyone listen to each other as equals, everything is open for debate(doesn't mean that hate speech is able or has space in Matelab at all) and vote because for us the most important is the people with their different ways of thinking and because of that our work ethic is based on four fundamental principles... honesty, inclusion, human quality and technical excelence."
         ></Organization>
         <Aboutus id="aboutus" title1="About us"></Aboutus>
-        <Customer id="clientes" title1="Who trusted us"></Customer>
+        <Customer id="clientes" title1="Customers"></Customer>
         <ContactForm
           id="contacto"
           title1="Contact us"
