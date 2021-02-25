@@ -53,7 +53,7 @@ const arrayIntegrantes = [
   },
   {
     name: "Francisco Chardin",
-    job: "Front End Developer",
+    job: "Desarrollador Front End",
     linkedin: "https://www.linkedin.com/in/francisco-chardin-a7a44479/",
     site: "https://resumes.matelab.com.ar/es/fchardin.pdf",
     git: "https://github.com/franchardin",
@@ -62,7 +62,7 @@ const arrayIntegrantes = [
   },
   {
     name: "Luciana Farjat",
-    job: "Sales Executive & Office Manager",
+    job: "Responsable Comercial & Office Manager",
     linkedin: "https://www.linkedin.com/in/luciana-farjat-0372b0207/",
     site: "https://resumes.matelab.com.ar/es/lfarjat.pdf",
     git: "https://github.com/luperta",
