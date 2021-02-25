@@ -61,24 +61,22 @@ const arrayIntegrantes = [
     photo: "/es/perfiles/perfil_jcesarini.jpg",
   },
   {
-    name: "Ramiro Reyna",
-    job: "Scrum Master",
-    linkedin: "https://www.linkedin.com/in/ramiroreyna/",
-    site: "https://resumes.matelab.com.ar/es/rreyna.pdf",
-    git: "https://github.com/",
-    descripcion:
-      "",
-    photo: "/es/perfiles/perfil_rreyna.jpg",
+    name: "Francisco Chardin",
+    job: "Front End Developer",
+    linkedin: "https://www.linkedin.com/in/francisco-chardin-a7a44479/",
+    site: "https://resumes.matelab.com.ar/es/fchardin.pdf",
+    git: "https://github.com/franchardin",
+    descripcion: "",
+    photo: "/en/perfiles/perfil_francisco.png",
   },
   {
-    name: "Ignacio Pedraza",
-    job: "Desarrollador Front-End",
-    linkedin: "",
-    site: "https://resumes.matelab.com.ar/es/ipedraza.pdf",
-    git: "https://github.com/nachoijp",
-    descripcion:
-      "",
-    photo: "/es/perfiles/perfil_ipedraza.jpg",
+    name: "Luciana Farjat",
+    job: "Sales Executive & Office Manager",
+    linkedin: "https://www.linkedin.com/in/luciana-farjat-0372b0207/",
+    site: "https://resumes.matelab.com.ar/es/lfarjat.pdf",
+    git: "https://github.com/luperta",
+    descripcion: "",
+    photo: "/en/perfiles/perfil_luciana.jpg",
   },
 ];
 
