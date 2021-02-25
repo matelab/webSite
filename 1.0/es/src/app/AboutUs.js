@@ -49,7 +49,7 @@ const arrayIntegrantes = [
     git: "https://github.com/",
     descripcion:
       "Analista de Sistemas - Desarrollador Full Stack, Aportando mi granito de arena para construir un mundo más diverso y sin prejuicios",
-    photo: "/es/perfiles/perfil_jcesarini.jpg",
+    photo: "/es/perfiles/perfil_jpc.jpg",
   },
   {
     name: "Francisco Chardin",
@@ -57,8 +57,9 @@ const arrayIntegrantes = [
     linkedin: "https://www.linkedin.com/in/francisco-chardin-a7a44479/",
     site: "https://resumes.matelab.com.ar/es/fchardin.pdf",
     git: "https://github.com/franchardin",
-    descripcion: "",
-    photo: "/sn/perfiles/perfil_francisco.png",
+    descripcion:
+      "Desarrollador Frontend JS, apasionado del diseño y músico.  Mis intereses van del lettering a la cocina con varias escalas intermedias (aparentemente) inconexas. Convencido de que el trabajo en equipo lo puede todo.",
+    photo: "/es/perfiles/perfil_francisco.png",
   },
   {
     name: "Luciana Farjat",
