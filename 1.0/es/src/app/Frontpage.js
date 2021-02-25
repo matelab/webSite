@@ -42,7 +42,8 @@ class Frontpage extends Component {
       })
       .catch((error) => {
         this.setState({
-          message: "Ocurrió un error con MateLab por favor recarga la web, presionando F5",
+          message:
+            "Ocurrió un error con MateLab por favor recarga la web, presionando F5",
         });
       });
   }
@@ -72,7 +73,7 @@ class Frontpage extends Component {
           text2="Matelab es un espacio de trabajo donde todos son escuchados por igual(esto no habilita de ninguna manera, discursos de odio), todo se puede debatir y votar ya que lo importante para nosotros son ante todo las personas con sus diferentes maneras de pensar y por eso nuestra forma de trabajar se basa en cuatro principios fundamentales tales como la honestidad, la inclusión, la calidad humana y la excelencia técnica."
         ></Organization>
         <Aboutus id="aboutus" title1="Sobre Nosotros"></Aboutus>
-        <Customer id="clientes" title1="Confiaron en Nosotros"></Customer>
+        <Customer id="clientes" title1="Clientes"></Customer>
         <ContactForm
           id="contacto"
           title1="Contactenos"
