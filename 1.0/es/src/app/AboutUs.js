@@ -67,7 +67,7 @@ const arrayIntegrantes = [
     site: "https://resumes.matelab.com.ar/es/fchardin.pdf",
     git: "https://github.com/franchardin",
     descripcion: "",
-    photo: "/en/perfiles/perfil_francisco.png",
+    photo: "/sn/perfiles/perfil_francisco.png",
   },
   {
     name: "Luciana Farjat",
@@ -76,7 +76,7 @@ const arrayIntegrantes = [
     site: "https://resumes.matelab.com.ar/es/lfarjat.pdf",
     git: "https://github.com/luperta",
     descripcion: "",
-    photo: "/en/perfiles/perfil_luciana.jpg",
+    photo: "/es/perfiles/perfil_luciana.jpg",
   },
 ];
 
