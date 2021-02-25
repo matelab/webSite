@@ -22,15 +22,6 @@ const arrayIntegrantes = [
     photo: "/es/perfiles/perfil_juanp.png",
   },
   {
-    name: "Rosana Caballero",
-    job: "Ref. Gestion",
-    site: "https://resumes.matelab.com.ar/es/rcaballero.pdf",
-    linkedin: "https://www.linkedin.com/in/rosanacaballero/",
-    descripcion:
-      "Licenciada en Administración de Recursos Humanos. Soy la que lleva el papeleo y registro contable de este grupo, la que quiere todo en regla.",
-    photo: "/es/perfiles/perfil_ro.jpg",
-  },
-  {
     name: "Ariel Caminos",
     job: "Desarrollador Front-End",
     linkedin: "https://www.linkedin.com/in/ariel-caminos-3b187863/",
