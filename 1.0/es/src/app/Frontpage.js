@@ -62,6 +62,8 @@ class Frontpage extends Component {
           text1="¿Qué hacemos?"
           text2="Desarrolo de software"
           text3="Diseño Web"
+          text4="Aplicaciones Mobile"
+          text5="Consultoria"
           text6="Staff Augmentation"
         ></Services>
         <Organization
