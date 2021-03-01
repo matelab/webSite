@@ -59,9 +59,9 @@ class Frontpage extends Component {
         <Services
           id="services"
           title1="Servicios"
-          text1="¿Qué ofrecemos?"
-          text2="Desarrolo de software, Diseño web, Aplicaciones moviles, Consultoria y Staff Augmentation"
-          text3="¿Cómo trabajamos?"
+          text1="¿Qué hacemos?"
+          text2="Desarrolo de software"
+          text3="CRM - ERP - CMS - Aplicaciones Desktop - Aplicaciones Web"
           text4="Escuchamos para unirnos a la visión de nuestros clientes y así poder brindarles diferentes alternativas para la transformación digital que tengan como objetivo resolver los problemas con los cuáles se acercan a nosotros."
           text5="En resumen... ¿qué hacemos?"
           text6="Resolvemos tus problemas tecnologicos y te liberamos de la carga de lidiar con ellos en tu organización."
