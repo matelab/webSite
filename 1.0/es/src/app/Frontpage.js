@@ -61,10 +61,8 @@ class Frontpage extends Component {
           title1="Servicios"
           text1="¿Qué hacemos?"
           text2="Desarrolo de software"
-          text3="CRM - ERP - CMS - Aplicaciones Desktop - Aplicaciones Web"
-          text4="Diseño Web"
-          text5="Landing Pages - SEO/SEM - Sitios Corporativos - PWA - UX/UI"
-          text6="Resolvemos tus problemas tecnologicos y te liberamos de la carga de lidiar con ellos en tu organización."
+          text3="Diseño Web"
+          text6="Staff Augmentation"
         ></Services>
         <Organization
           id="organization"
