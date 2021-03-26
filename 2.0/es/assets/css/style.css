@@ -753,6 +753,45 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Our Tech
+--------------------------------------------------------------*/
+.tech .owl-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.tech .owl-item img {
+  width: 80%;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.tech .owl-item img:hover {
+  opacity: 1;
+}
+
+.tech .owl-nav,
+.tech .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.tech .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd !important;
+}
+
+.tech .owl-dot.active {
+  background-color: #159e4a !important;
+}
+
+/*--------------------------------------------------------------
 # Our Clients
 --------------------------------------------------------------*/
 .clients .owl-item {
