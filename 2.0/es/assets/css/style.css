@@ -1,10 +1,3 @@
-/**
-* Template Name: Green - v2.3.1
-* Template URL: https://bootstrapmade.com/green-free-one-page-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -14,7 +7,7 @@ body {
 }
 
 a {
-  color: #5cb874;
+  color: #159E4A;
 }
 
 a:hover {
@@ -23,7 +16,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -45,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #5cb874;
+  background: #159E4A;
   color: #fff;
   transition: all 0.4s;
 }
@@ -76,11 +69,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .contact-info a:hover {
-  color: #5cb874;
+  color: #159E4A;
 }
 
 #topbar .contact-info i {
-  color: #5cb874;
+  color: #159E4A;
   padding-right: 4px;
 }
 
@@ -97,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #5cb874;
+  color: #159E4A;
 }
 
 #topbar .social-links a:first-child {
@@ -131,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a {
-  color: #5cb874;
+  color: #159E4A;
 }
 
 #header .logo img {
@@ -174,11 +167,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #222222;
   transition: 0.3s;
   font-size: 14px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #5cb874;
+  color: #159E4A;
 }
 
 .nav-menu .drop-down ul {
@@ -215,7 +208,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #5cb874;
+  color: #159E4A;
 }
 
 .nav-menu .drop-down > a:after {
@@ -261,19 +254,19 @@ h1, h2, h3, h4, h5, h6 {
 /* Get Startet Button */
 .get-started-btn {
   margin-left: 25px;
-  color: #5cb874;
+  color: #159E4A;
   border-radius: 4px;
   padding: 7px 25px 8px 25px;
   white-space: nowrap;
   transition: 0.3s;
   font-size: 14px;
-  border: 2px solid #5cb874;
+  border: 2px solid #159E4A;
   display: inline-block;
   font-weight: 600;
 }
 
 .get-started-btn:hover {
-  background: #5cb874;
+  background: #159E4A;
   color: #fff;
 }
 
@@ -336,7 +329,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #5cb874;
+  color: #159E4A;
   text-decoration: none;
 }
 
@@ -516,11 +509,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .carousel-indicators li.active {
   opacity: 1;
-  background: #5cb874;
+  background: #159E4A;
 }
 
 #hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -532,7 +525,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  background: #5cb874;
+  background: #159E4A;
 }
 
 #hero .btn-get-started:hover {
@@ -608,7 +601,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #5cb874;
+  background: #159E4A;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -639,7 +632,7 @@ section {
 }
 
 .featured-services .icon i {
-  color: #5cb874;
+  color: #159E4A;
   font-size: 42px;
 }
 
@@ -655,7 +648,7 @@ section {
 }
 
 .featured-services .icon-box:hover .title a {
-  color: #5cb874;
+  color: #159E4A;
 }
 
 .featured-services .description {
@@ -683,7 +676,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #5cb874;
+  color: #159E4A;
 }
 
 .about .content p:last-child {
@@ -770,7 +763,7 @@ section {
 }
 
 .clients .owl-dot.active {
-  background-color: #5cb874 !important;
+  background-color: #159E4A !important;
 }
 
 /*--------------------------------------------------------------
@@ -910,7 +903,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: #5cb874;
+  background: #159E4A;
   padding: 80px 0;
 }
 
@@ -925,7 +918,7 @@ section {
 }
 
 .cta .cta-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 1px;
@@ -941,7 +934,7 @@ section {
 
 .cta .cta-btn:hover {
   background: #fff;
-  color: #5cb874;
+  color: #159E4A;
 }
 
 @media (max-width: 1024px) {
@@ -988,7 +981,7 @@ section {
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #5cb874;
+  background: #159E4A;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1126,7 +1119,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #5cb874;
+  color: #159E4A;
 }
 
 .team .member .social i {
@@ -1138,8 +1131,8 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info {
-  border-top: 3px solid #5cb874;
-  border-bottom: 3px solid #5cb874;
+  border-top: 3px solid #159E4A;
+  border-bottom: 3px solid #159E4A;
   padding: 30px;
   background: #fff;
   width: 100%;
@@ -1148,7 +1141,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #5cb874;
+  color: #159E4A;
   float: left;
   width: 44px;
   height: 44px;
@@ -1195,19 +1188,19 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #5cb874;
+  background: #159E4A;
   color: #fff;
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #5cb874;
+  background: #159E4A;
   color: #fff;
 }
 
 .contact .php-email-form {
   width: 100%;
-  border-top: 3px solid #5cb874;
-  border-bottom: 3px solid #5cb874;
+  border-top: 3px solid #159E4A;
+  border-bottom: 3px solid #159E4A;
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -1275,7 +1268,7 @@ section {
 }
 
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #5cb874;
+  border-color: #159E4A;
 }
 
 .contact .php-email-form input {
@@ -1287,7 +1280,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #5cb874;
+  background: #159E4A;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1401,7 +1394,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #5cb874 !important;
+  background-color: #159E4A !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -1473,7 +1466,7 @@ section {
   font-weight: 700;
   color: #fff;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   padding: 0;
   margin: 0 0 15px 0;
 }
@@ -1492,7 +1485,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #5cb874;
+  background: #159E4A;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
