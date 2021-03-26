@@ -260,6 +260,29 @@ h6 {
   }
 }
 
+/* Colores cooperativos*/
+
+.acerca:hover{
+  border-bottom: red 3px solid;
+}
+.clientes:hover{
+  border-bottom: orangered 3px solid;
+}
+.servicios:hover{
+  border-bottom: yellow 3px solid;
+}
+.portfolio:hover{
+  border-bottom: green 3px solid;
+}
+.equipo:hover{
+  border-bottom: lightskyblue 3px solid;
+}
+.contacto:hover{
+  border-bottom: blue 3px solid;
+}
+.icofont-world:hover{
+  color: darkviolet;
+}
 /* Get Startet Button */
 .get-started-btn {
   margin-left: 25px;
