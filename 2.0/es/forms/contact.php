@@ -13,7 +13,7 @@
         $mailUsuario->SMTPAuth   = true;                          // Enable SMTP authentication
         $mailUsuario->Host       = 'smtp.gmail.com';    // Set the SMTP server to send through
         $mailUsuario->Username   = 'contacto@matelab.com.ar'; // SMTP username
-        $mailUsuario->Password   = 'CapitanBeto2021';              // SMTP password
+        $mailUsuario->Password   = '';              // SMTP password
         $mailUsuario->Port       = 587;
         $mailUsuario->SetFrom('contacto@matelab.com.ar','Matelab Software Factory');
         $mailUsuario->AddAddress($email); 

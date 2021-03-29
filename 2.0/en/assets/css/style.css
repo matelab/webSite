@@ -1607,14 +1607,11 @@ section {
 .about:hover {
   border-bottom: red 3px solid;
 }
-.clients:hover {
+.services:hover {
   border-bottom: orange 3px solid;
 }
-.services:hover {
-  border-bottom: yellow 3px solid;
-}
 .portfolio:hover {
-  border-bottom: green 3px solid;
+  border-bottom: yellow 3px solid;
 }
 .team:hover {
   border-bottom: lightskyblue 3px solid;
