@@ -1,6 +1,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+*{
+  box-sizing: border-box;
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -1259,7 +1262,8 @@ section {
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
-.contact .info .phone:hover i {
+.contact .info .phone:hover i,
+.social-links .redes:hover i{
   background: #159e4a;
   color: #fff;
 }
@@ -1606,19 +1610,25 @@ section {
 
 .about:hover {
   border-bottom: red 3px solid;
+  margin-bottom: -3px;
 }
 .services:hover {
   border-bottom: orange 3px solid;
+  margin-bottom: -3px;
 }
 .portfolio:hover {
   border-bottom: yellow 3px solid;
+  margin-bottom: -3px;
 }
 .team:hover {
   border-bottom: lightskyblue 3px solid;
+  margin-bottom: -3px;
 }
 .contact:hover {
   border-bottom: blue 3px solid;
+  margin-bottom: -3px;
 }
 .icofont-world:hover {
   color: darkviolet;
+  margin-bottom: -3px;
 }
