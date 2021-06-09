@@ -1364,6 +1364,10 @@ section {
   background: #6ec083;
 }
 
+form label span{
+  display: none;
+}
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
